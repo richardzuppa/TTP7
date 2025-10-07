@@ -5,7 +5,7 @@ playfields:
     tags: default
     default_source_device: bd_plunger   
 
-    
+# configs separados 
 config:
  - config_sounds.yaml
  - config_ball_devices.yaml
