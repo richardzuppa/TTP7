@@ -1,0 +1,15 @@
+#show_version=6
+
+
+ - duration: 1
+   lights:
+    l_left_rollover: ff
+    l_center_rollover: 00
+    l_right_rollover: ff
+
+ - duration: 1
+   lights:
+    l_left_rollover: 00
+    l_center_rollover: ff
+    l_right_rollover: 00
+     

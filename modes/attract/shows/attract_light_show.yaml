@@ -1,0 +1,105 @@
+#show_version=6
+
+
+# Time Droptarget Time
+- duration: 1
+  lights:
+    l_I: 0
+    l_T: ff
+    l_R: 0
+    l_Tb: ff
+- duration: 1
+  lights:
+    l_T: 0
+    l_I: blue
+    l_Tb: 0
+    l_R: ff
+- duration: 1
+  lights:
+    l_I: 0
+    l_M: ff
+    l_R: 0
+    l_A: ff
+- duration: 1
+  lights:
+    l_M: 0
+    l_E: ff
+    l_A: 0
+    l_V: ff
+- duration: 1
+  lights:
+    l_E: 0
+    l_M: ff
+    l_V: 0
+    l_Eb: ff
+- duration: 1
+  lights:
+    l_M: 0
+    l_I: ff
+    l_Eb: 0
+    l_L: ff
+- duration: 1
+  lights:
+    l_I: 0
+    l_T: ff
+    l_L: 0
+    l_Tb: 0
+
+# - duration: 1
+#   lights:
+#     l_I: 0
+#     l_T: ff
+# - duration: 1
+#   lights:
+#     l_T: 0
+#     l_I: ff
+# - duration: 1
+#   lights:
+#     l_I: 0
+#     l_M: ff
+# - duration: 1
+#   lights:
+#     l_M: 0
+#     l_E: ff
+# - duration: 1
+#   lights:
+#     l_E: 0
+#     l_M: ff
+# - duration: 1
+#   lights:
+#     l_M: 0
+#     l_I: ff
+# - duration: 1
+#   lights:
+#     l_I: 0
+#     l_T: ff
+
+# Time Droptarget Travel
+# - duration: 1
+#   lights:
+#     l_R: 0
+#     l_Tb: ff   
+# - duration: 1
+#   lights:
+#     l_Tb: 0
+#     l_R: ff
+# - duration: 1
+#   lights:
+#     l_R: 0
+#     l_A: ff
+# - duration: 1
+#   lights:
+#     l_A: 0
+#     l_V: ff
+# - duration: 1
+#   lights:
+#     l_V: 0
+#     l_Eb: ff
+# - duration: 1
+#   lights:
+#     l_Eb: 0
+#     l_L: ff
+# - duration: 1
+#   lights:
+#     l_L: 0
+#     l_Tb: 0

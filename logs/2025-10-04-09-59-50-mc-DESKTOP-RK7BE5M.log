@@ -1,0 +1,19 @@
+2025-10-04 09:59:50,495 : kivy : deps: Successfully imported "kivy_deps.gstreamer" 0.3.3
+2025-10-04 09:59:50,495 : kivy : deps: Successfully imported "kivy_deps.angle" 0.3.3
+2025-10-04 09:59:50,495 : kivy : deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-10-04 09:59:50,495 : kivy : deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2025-10-04 09:59:50,495 : kivy : Kivy: v2.2.1
+2025-10-04 09:59:50,495 : kivy : Kivy: Installed at "C:\Users\richa\mpfvirtual4\lib\site-packages\kivy\__init__.py"
+2025-10-04 09:59:50,495 : kivy : Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2025-10-04 09:59:50,496 : kivy : Python: Interpreter at "C:\Users\richa\mpfvirtual4\Scripts\python.exe"
+2025-10-04 09:59:50,513 : kivy : Factory: 190 symbols loaded
+2025-10-04 09:59:50,677 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.0
+2025-10-04 09:59:50,677 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2025-10-04 09:59:50,836 : kivy : VideoGstplayer: Using Gstreamer 1.18.5.0
+2025-10-04 09:59:50,836 : kivy : Video: Provider: gstplayer
+2025-10-04 09:59:50,878 : root : Loading MPF-MC controller
+2025-10-04 09:59:50,881 : YamlMultifileConfigLoader : Machine config file #1: config
+2025-10-04 09:59:50,881 : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp5\config\config
+2025-10-04 09:59:50,881 : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml.
+2025-10-04 09:59:50,890 : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml
+2025-10-04 09:59:50,891 : ConfigProcessor : Loading config from file C:\Users\richa\ttp5\config\config.

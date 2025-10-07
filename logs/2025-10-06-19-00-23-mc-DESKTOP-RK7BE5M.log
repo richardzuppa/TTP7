@@ -1,0 +1,57 @@
+2025-10-06 19:00:23,387 : kivy : deps: Successfully imported "kivy_deps.gstreamer" 0.3.3
+2025-10-06 19:00:23,387 : kivy : deps: Successfully imported "kivy_deps.angle" 0.3.3
+2025-10-06 19:00:23,387 : kivy : deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-10-06 19:00:23,387 : kivy : deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2025-10-06 19:00:23,387 : kivy : Kivy: v2.2.1
+2025-10-06 19:00:23,387 : kivy : Kivy: Installed at "C:\Users\richa\mpfvirtual4\lib\site-packages\kivy\__init__.py"
+2025-10-06 19:00:23,387 : kivy : Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2025-10-06 19:00:23,388 : kivy : Python: Interpreter at "C:\Users\richa\mpfvirtual4\Scripts\python.exe"
+2025-10-06 19:00:23,646 : kivy : Factory: 190 symbols loaded
+2025-10-06 19:00:24,984 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.0
+2025-10-06 19:00:24,984 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2025-10-06 19:00:25,531 : kivy : VideoGstplayer: Using Gstreamer 1.18.5.0
+2025-10-06 19:00:25,531 : kivy : Video: Provider: gstplayer
+2025-10-06 19:00:25,772 : root : Loading MPF-MC controller
+2025-10-06 19:00:25,775 : YamlMultifileConfigLoader : Machine config file #1: config
+2025-10-06 19:00:25,776 : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp5\config\config
+2025-10-06 19:00:25,776 : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml.
+2025-10-06 19:00:25,793 : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml
+2025-10-06 19:00:25,794 : ConfigProcessor : Loading config from file C:\Users\richa\ttp5\config\config.
+2025-10-06 19:00:25,796 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config
+2025-10-06 19:00:25,797 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_sounds.yaml
+2025-10-06 19:00:25,798 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_ball_devices.yaml
+2025-10-06 19:00:25,800 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_coils.yaml
+2025-10-06 19:00:25,801 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_flippers.yaml
+2025-10-06 19:00:25,806 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_switches.yaml
+2025-10-06 19:00:25,812 : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_lights.yaml
+2025-10-06 19:00:25,815 : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\dfe03a1c6b87b9e2015d2c57a6076bec.mpf_cache
+2025-10-06 19:00:25,816 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77a998d318c788df5647a1900cedfc56.mpf_cache
+2025-10-06 19:00:25,817 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-06 19:00:25,817 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\8ddee2e87a4f178751335e99da00e9c4.mpf_cache
+2025-10-06 19:00:25,825 : mpfmc : Mission Pinball Framework Media Controller (MPF-MC) v0.57.0.dev10. Requires MPF v0.57.0.dev19 or newer.
+2025-10-06 19:00:25,825 : mpfmc : Found MPF v0.57.0.dev39
+2025-10-06 19:00:25,825 : mpfmc : Machine path: C:\Users\richa\ttp5
+2025-10-06 19:00:25,825 : mpfmc : Starting clock at 60.0Hz
+2025-10-06 19:00:25,931 : kivy : Text: Provider: sdl2
+2025-10-06 19:00:25,955 : ConfigValidator : Your config contains a value for the setting "displays:title", but this is not a valid setting name.
+2025-10-06 19:00:25,955 : root : Config File Error in ConfigValidator: Your config contains a value for the setting "displays:title", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\commands\mc.py", line 215, in __init__
+    MpfMc(options=vars(args),
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\core\mc.py", line 151, in __init__
+    self.config_processor = ConfigProcessor(self)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\core\config_processor.py", line 34, in __init__
+    self.process_displays(config=self.mc.machine_config['displays'])
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\core\config_processor.py", line 82, in process_displays
+    self.mc.displays[display] = self.create_display(display, settings)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\core\config_processor.py", line 88, in create_display
+    return Display(self.mc, name, **self.machine.config_validator.validate_config('displays', config))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 336, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "displays:title", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-06 19:00:25,996 : root : Stopping child threads... (0 remaining)
+2025-10-06 19:00:25,997 : root : All child threads stopped.

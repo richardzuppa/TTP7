@@ -1,0 +1,213 @@
+2025-10-03 17:08:42,821 : INFO : root : Loading config.
+2025-10-03 17:08:42,825 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-03 17:08:42,825 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\bad76953a596b8c99f832e0e98026c3b.mpf_cache
+2025-10-03 17:08:42,915 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77a998d318c788df5647a1900cedfc56.mpf_cache
+2025-10-03 17:08:42,916 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-03 17:08:42,916 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\8ddee2e87a4f178751335e99da00e9c4.mpf_cache
+2025-10-03 17:08:42,917 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\16d594341c3fbe91b1b6d496c05a6fb0.mpf_cache
+2025-10-03 17:08:42,918 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9ea1b14cb2b1cce5e8bf981a1ff8cfc5.mpf_cache
+2025-10-03 17:08:42,918 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-03 17:08:42,918 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-03-17-08-42-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-03 17:08:42,919 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-03 17:08:42,919 : INFO : Machine : Machine path: C:\Users\richa\ttp5
+2025-10-03 17:08:42,919 : INFO : Machine : Platform: win32
+2025-10-03 17:08:42,919 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-03 17:08:42,919 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-03 17:08:42,920 : INFO : Machine : Initializing MPF...
+2025-10-03 17:08:43,285 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,341 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,341 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 28284, 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,341 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,342 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,342 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,351 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,352 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,352 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,352 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,352 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-03 17:08:43,352 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-03 17:08:43,367 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-03 17:08:43,367 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-10-03 17:08:43,367 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-10-03 17:08:43,367 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-10-03 17:08:43,367 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-10-03 17:08:43,368 : INFO : SwitchController : Found active switch: ('6', <Platform.SmartVirtual>) <switch.s_trough5>
+2025-10-03 17:08:43,368 : INFO : SwitchController : Found active switch: ('7', <Platform.SmartVirtual>) <switch.s_trough6>
+2025-10-03 17:08:43,370 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-03 17:08:43,371 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-03 17:08:45,394 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-03 17:08:45,395 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-03 17:08:45,678 : INFO : ball_device.bd_trough : BCH: Initial count: 6
+2025-10-03 17:08:45,678 : INFO : ball_device.bd_trough : State: idle
+2025-10-03 17:08:45,679 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-10-03 17:08:45,679 : INFO : ball_device.bd_plunger : State: idle
+2025-10-03 17:08:45,696 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-03 17:08:45,699 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-03 17:08:45,699 : INFO : BallController : Initial balls found: 6
+2025-10-03 17:08:45,700 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 8, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,700 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,700 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_left_flipper'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,700 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_flipper'====== Args={'value': 6, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_right_inlane'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_left'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_sling_right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_start'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough1'====== Args={'value': 2, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough2'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough3'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough4'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough5'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,701 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough6'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_missing_switches_s_trough_jam'====== Args={'value': 29, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 12256, 'top': [28284, 25272, 22800, 13400, 11420, 10700, 8000, 0, 0, 0], 'total': 10}, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_shots_middle_inlane_shot'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_shots_my_first_shot'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_shots_top_middle_inlane_shot'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 247, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_middle_inlane'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger'====== Args={'value': 61, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 73, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,702 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 72, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_sling_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 11, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_top_middle_inlane'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 48, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough4'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough5'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough6'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_jam'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-03 17:08:45,704 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-10-03 17:08:45,820 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-10-03 17:08:45,820 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-10-03 17:08:46,059 : INFO : BcpServer : New client connected.
+2025-10-03 17:08:46,396 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.0.dev10', 'prev_value': None, 'change': True}
+2025-10-03 17:08:46,397 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.0.dev10 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0.dev19 or newer)', 'prev_value': None, 'change': True}
+2025-10-03 17:08:46,403 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-10-03 17:08:46,404 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-10-03 17:08:46,404 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-10-03 17:08:46,404 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-10-03 17:08:46,405 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-10-03 17:08:46,405 : INFO : Mode.attract : Started. Priority: 10
+2025-10-03 17:08:46,405 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-10-03 17:08:46,405 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-10-03 17:08:46,406 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-10-03 17:08:46,453 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:08:46,453 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:08:46,454 : INFO : Machine : Starting the main run loop.
+2025-10-03 17:08:49,415 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:08:49,419 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:08:52,416 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:08:52,417 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:08:55,416 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:08:55,421 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:08:58,412 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:08:58,414 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:08:58,415 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:01,418 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:01,420 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:01,424 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:04,400 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:04,404 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:04,406 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:07,411 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:07,427 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:07,432 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:10,425 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:10,426 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:10,427 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:13,403 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:13,417 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:13,422 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:16,408 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:16,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:16,411 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:19,419 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:19,421 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:19,425 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:22,412 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:22,418 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:22,418 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:25,408 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:25,408 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:25,409 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:28,406 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:28,406 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:28,408 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:31,412 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:31,425 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:31,431 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:34,413 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:34,423 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:34,426 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:37,424 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:37,437 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:37,439 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:40,421 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:40,427 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:40,430 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:43,401 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:43,411 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:43,414 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:46,415 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:46,417 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:46,419 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:49,403 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:49,422 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:49,427 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:52,414 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:52,416 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:52,418 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:55,425 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:55,431 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:55,433 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:09:58,417 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:09:58,420 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:09:58,423 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:01,405 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:01,412 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:01,415 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:04,406 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:04,411 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:04,416 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:07,402 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:07,405 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:07,407 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:10,414 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:10,416 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:10,417 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:13,417 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:13,420 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:13,420 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:16,420 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:16,421 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:16,422 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:19,407 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:19,413 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:19,415 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:22,413 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:22,416 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:22,417 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:25,417 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:25,433 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:25,436 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:28,417 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:28,419 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:28,419 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:31,404 : INFO : EventManager : Event: ======'slide_last_game_score_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:31,411 : INFO : EventManager : Event: ======'slide_last_game_score_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:31,414 : INFO : EventManager : Event: ======'slide_last_game_score_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:34,418 : INFO : EventManager : Event: ======'slide_awesome_slide_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:34,420 : INFO : EventManager : Event: ======'slide_awesome_slide_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:34,421 : INFO : EventManager : Event: ======'slide_awesome_slide_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:37,406 : INFO : EventManager : Event: ======'slide_press_start_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:37,407 : INFO : EventManager : Event: ======'slide_press_start_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:37,409 : INFO : EventManager : Event: ======'slide_press_start_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:40,406 : INFO : EventManager : Event: ======'slide_mission_pinball_removed'====== Args={'_from_bcp': True}
+2025-10-03 17:10:40,409 : INFO : EventManager : Event: ======'slide_mission_pinball_created'====== Args={'_from_bcp': True}
+2025-10-03 17:10:40,409 : INFO : EventManager : Event: ======'slide_mission_pinball_active'====== Args={'_from_bcp': True}
+2025-10-03 17:10:41,120 : INFO : Machine : Shutting down...
+2025-10-03 17:10:41,120 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-03 17:10:41,134 : INFO : root : MPF run loop ended.

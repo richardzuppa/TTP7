@@ -1,0 +1,160 @@
+#config_version=6
+
+switches:
+  #Botom Switches
+
+  s_left_flipper:
+    number: 10
+    tags: left_flipper
+  s_right_flipper:
+    number: 11
+    tags: right_flipper
+  
+  s_trough1:
+    number: 2 
+    type: NC
+  s_trough2:
+    number: 3 
+    type: NC
+  s_trough3:
+    number: 4 
+    type: NC
+  s_trough4:
+    number: 5 
+    type: NC
+  s_trough5:
+    number: 6 
+    type: NC
+  s_trough6:
+    number: 7 
+    type: NC
+  s_trough_jam:
+    number: 8 
+    type: NC
+
+  s_plunger:
+    number: 9
+  s_start:
+    number: 15
+    tags: start
+
+  #Botom Lanes Switches  
+  s_right_inlane:
+    number: 16
+    tags: right_inlane, playfield_active
+  s_left_inlane:
+    number: 17
+    tags: left_inlane, playfield_active
+  s_left_outlane:
+    number: 18
+    tags: left_outlane
+  s_right_outlane:
+    number: 19
+    tags: right_outlane
+  
+  #Upper Rollover Switches
+  s_left_rollover:
+    number: 100
+    tags: left_rollover
+  s_center_rollover:
+    number: 101
+    tags: center_rollover
+  s_right_rollover:
+    number: 102
+    tags: right_rollover
+  
+  # Drop Targets
+  s_T:
+    number: 150
+    tags: T_droptarget
+  s_I:
+    number: 151
+    tags: I_droptarget
+  s_M:
+    number: 152
+    tags: M_droptarget
+  s_E:
+    number: 153
+    tags: E_droptarget
+  
+  s_Tb:
+    number: 154
+    tags: Tb_droptarget
+  s_R:
+    number: 155
+    tags: R_droptarget
+  s_A:
+    number: 156
+    tags: A_droptarget
+  s_V:
+    number: 157
+    tags: V_droptarget
+  s_Eb:
+    number: 158
+    tags: Eb_droptarget
+  s_L:
+    number: 159
+    tags: L_droptarget
+
+  s_left_center_target:
+    number: 160
+    tags: left_center_target
+  s_center_center_target:
+    number: 161
+    tags: center_center_target
+  s_right_center_target:
+    number: 162
+    tags: right_center_target
+ 
+ # Corridor Spinners
+  s_left_corridor_spinner:
+    number: 163
+    tags: left_corridor_spinner
+  s_left_corridor_spinner2:
+    number: 164
+    tags: left_corridor_spinner2
+  s_right_corridor_spinner:
+    number: 165
+    tags: right_corridor_spinner
+  s_launcher_lane_spinner:
+    number: 166
+    tags: launcher_lane_spinner
+ 
+ # Stand Ups 
+  s_left_standup:
+    number: 167
+    tags: left_standup
+  s_top_left_standup:
+    number: 168
+    tags: top_left_standup
+  s_top_left_standup2:
+    number: 169
+    tags: top_left_standup2
+  s_right_standup:
+    number: 170
+    tags: right_standup
+
+ # Scoops
+  s_left_scoop:
+    number: 171
+    tags: left_scoop
+  s_right_scoop:
+    number: 172
+    tags: right_scoop
+
+# Bumpers
+  s_bumper1:
+    number: 173
+    tags: bumper1
+  s_bumper2:
+    number: 174
+    tags: bumper2
+
+  
+  #autofire
+  s_sling_left:
+    number: 200
+  s_sling_right:
+    number: 201
+  
+   

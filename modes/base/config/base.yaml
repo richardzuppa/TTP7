@@ -1,0 +1,167 @@
+#config_version=6
+
+mode:
+  start_events: ball_started
+  priority: 100
+
+
+# Extraball
+counters:
+  my_counter:
+    starting_count: 0
+    count_complete_value: 5
+    count_events: s_left_scoop_active
+    reset_on_complete: true
+    disable_on_complete: false
+  
+
+light_player:
+  "{device.counters.my_counter.value > 0}":
+    l_left_scoop_avance2: 
+      color: red
+      fade: 200ms
+  "{device.counters.my_counter.value > 1}":
+    l_left_scoop_avance1: green
+  "{device.counters.my_counter.value > 2}":
+    l_left_scoop:
+       color: ff0000
+       fade: 2000ms
+  "{device.counters.my_counter.value > 3}":
+    l_extraball: 
+      color: orange
+      fade: 2000ms
+       
+
+
+  
+slide_player:
+  mode_base_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: text
+        text: 'POTATO VALUE: (potato)'
+        y: 40%
+
+show_player:
+  rollover_lanes_lit_complete: 
+    rollover_lanes_complete:
+      speed: 20
+      loops: 10
+      priority: 1
+
+sound_player:
+  rollover_lanes_complete:
+    go:
+      action: play
+      loops: 1
+
+shots:
+
+# Rollover
+  
+
+  left_rollover_shot:
+    switch: s_left_rollover
+    show_tokens:
+      light: l_left_rollover
+  center_rollover_shot:
+    switch: s_center_rollover
+    show_tokens:
+      light: l_center_rollover
+  right_rollover_shot:
+    switch: s_right_rollover
+    show_tokens:
+      light: l_right_rollover
+
+
+
+# Bumpers
+  bumper1_shot:
+    switch: s_bumper1
+  bumper2_shot:
+    switch: s_bumper2
+     
+
+# Botton lanes  
+  right_inlane_shot:
+    switch: s_right_inlane
+
+  # Lane light change by flipper
+shot_groups:
+  rollover_lanes:
+    shots: left_rollover_shot, center_rollover_shot, right_rollover_shot
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active
+    reset_events: rollover_lanes_lit_complete  
+  
+
+
+variable_player:
+  
+  right_inlane_shot_hit: # score by shot_hit
+    score: 42
+  s_right_inlane_active: # another way to get score (just getting the switch enabled)
+    score: 100
+
+  left_rollover_shot_hit:
+    score: 100
+  center_rollover_shot_hit:
+    score: 200
+  right_rollover_shot_hit:
+    score: 300
+  rollover_lanes_lit_complete: 
+    score: 5000
+
+  left_scoop_shot_hit:
+    score: 1000
+  right_scoop_shot_hit:
+    score: 1000
+
+  bumper1_shot_hit:
+    score: 100
+  bumper2_shot_hit:
+    score: 175
+
+
+# EXEMPLOS
+
+ # s_left_flipper_active:
+  #   score: 1000
+  #   potato: 1
+  # s_right_flipper_active:
+  #   potato: -2
+
+#   center_rollover_shot:
+#     switch: s_center_rollover
+#     show_tokens:
+#       led: l_left_rollover
+#     profile: center_rollover_profile
+
+# shot_profiles:
+#   center_rollover_profile:
+#     states:
+#      - name: unlit
+#        show: off
+#      - name: flashing
+#        show: flash 
+#      - name: lit
+#        show: on
+#     loop: true

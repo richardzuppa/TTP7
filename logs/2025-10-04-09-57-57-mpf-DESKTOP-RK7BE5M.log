@@ -1,0 +1,6 @@
+2025-10-04 09:57:57,161 : INFO : root : Loading config.
+2025-10-04 09:57:57,165 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-04 09:57:57,166 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp5\config\config.yaml
+2025-10-04 09:57:57,166 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-04 09:57:57,179 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-04 09:57:57,180 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp5\config\config.yaml.

@@ -1,0 +1,54 @@
+#config_version=6
+
+coils:
+  #Cabinet Coils
+
+  c_flipper_left_main:
+    number: 1  # again, these numbers will probably be different for you
+    default_pulse_ms: 20
+  c_flipper_left_hold:
+    number: 2  # check your platform-specific documentation for the actual numbers
+    default_hold_power: .5
+  c_flipper_right_main:
+    number: 3
+    default_pulse_ms: 20
+  c_flipper_right_hold:
+    number: 4
+    default_hold_power: .5
+
+  c_trough_eject:
+    number: 5
+    default_pulse_ms: 20
+
+  c_sling_left:
+    number: 10
+  c_sling_right:
+    number: 11
+
+  c_left_scoop:
+    number: 12
+    label:
+    tags:
+  c_right_scoop:
+    number: 13
+    label:
+    tags:
+  
+  c_bumper1:
+    number: 14
+
+  c_bumper2:
+    number: 15
+
+autofire_coils:
+  ac_sling_left:
+    switch: s_sling_left
+    coil: c_sling_left
+  ac_sling_right:
+    switch: s_sling_right
+    coil: c_sling_right
+  
+  
+  
+
+ 

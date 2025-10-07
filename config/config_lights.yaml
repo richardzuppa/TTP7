@@ -1,0 +1,182 @@
+#config_version=6
+
+lights:
+ # Drop Targets
+  l_T:
+    number: 1
+  l_I:
+    number: 2
+  l_M:
+    number: 3
+  l_E:
+    number: 4
+  l_Tb:
+    number: 5
+  l_R:
+    number: 6
+  l_A:
+    number: 7
+  l_V:
+    number: 8
+  l_Eb:
+    number: 9
+  l_L:
+    number: 10
+ 
+ # Rollover
+  l_left_rollover:
+    number: 11
+    label:
+    tags: purple
+  l_center_rollover:
+    number: 12
+  l_right_rollover:
+    number: 13
+  
+  #Stand Ups
+  l_left_standup:
+    number: 14
+  l_right_standup:
+    number: 15
+  l_top_lef_standup:
+    number: 16
+  l_top_left_standup_2:
+    number: 17
+
+  #Botom Lanes
+  l_left_out_lane:
+    number: 18
+  l_right_out_lane:
+    number: 19
+  l_left_inlane:
+    number: 20
+  l_right_inlane: 
+    number: 21
+
+  # Center Targets
+  l_left_center_target:
+    number: 22
+  l_center_center_target:
+    number: 23
+  l_right_center_target:
+    number: 24
+  l_left_center_target_avance1:
+    number: 25
+  l_center_center_target_avance1:
+    number: 26
+  l_right_center_target_avance1:
+    number: 27
+
+  # Scoops
+  l_left_scoop:
+    number: 28
+  l_right_scoop:
+    number: 29
+  l_left_scoop_avance1:
+    number: 30
+  l_left_scoop_avance2:
+    number: 31
+  l_right_scoop_avance1:
+    number: 32
+  l_right_scoop_avance2:
+    number: 33
+  
+  # Corridors
+  l_left_corridor:
+    number: 34
+  l_left_corridor_2:
+    number: 35
+  l_right_corridor:
+    number: 36
+  l_left_corridor_avance1:
+    number: 37
+  l_left_corridor_avance2:
+    number: 38
+  l_left_corridor_avance3:
+    number: 39
+  l_left_corridor_avance4:
+    number: 40
+  l_left_corridor_avance5:
+    number: 41
+  l_left_corridor_avance6:
+    number: 42
+  
+  
+  # Botom 
+  l_shot_again:
+    number: 43
+  l_bonusx100:
+    number: 44
+  l_bonusx1000:
+    number: 45
+  1_bonusx2000:
+    number: 46
+  l_bonusx5000: 
+    number: 47
+  l_bonusx7000:
+    number: 48
+  
+  # Time Warp
+  l_timewarp1:
+    number: 49
+  l_timewarp2:
+    number: 50
+  l_timewarp3:
+    number: 51
+  l_timewarp4:
+    number: 52
+  l_timewarp5:
+    number: 53
+  l_timewarp6:
+    number: 54
+  l_timewarp7:
+    number: 55
+  l_timewarp8:
+    number: 56
+
+  # Global Ilumination
+  l_gi1:
+    number: 57
+  l_gi2:
+    number: 58
+  l_gi3:
+    number: 59
+  l_gi4:
+    number: 60
+  l_gi5:
+    number: 61
+  l_gi6:
+    number: 62
+  l_gi7:
+    number: 63
+  l_gi8:
+    number: 64
+  l_gi9:
+    number: 65
+  l_gi10:
+    number: 66
+  l_gi11:
+    number: 67
+  l_gi12:
+    number: 68
+  l_gi13:
+    number: 69
+  l_gi14:
+    number: 70
+  l_gi15:
+    number: 71
+  
+  # SpSpecials
+  l_extraball:
+    number: 72
+  l_special:
+    number: 73
+  
+  
+
+
+
+  # l_fortress_multiball:
+  #   number: l12
+  #   label:
+  #   tags: purple

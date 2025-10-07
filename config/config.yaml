@@ -1,0 +1,59 @@
+#config_version=6
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger   
+
+    
+config:
+ - config_sounds.yaml
+ - config_ball_devices.yaml
+ - config_coils.yaml
+ - config_flippers.yaml
+ - config_switches.yaml
+ - config_lights.yaml
+
+modes:
+ - base
+
+displays:
+  window:
+    width: 800
+    height: 600
+    
+
+
+  
+
+keyboard:
+  z:
+    switch: s_left_flipper
+  x:
+    switch: s_right_flipper
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  p:
+    switch: s_plunger
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane
+
+ 
+
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
+  - s_trough4
+  - s_trough5
+  - s_trough6
+

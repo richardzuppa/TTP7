@@ -1,0 +1,53 @@
+2025-10-06 19:09:13,299 : INFO : root : Loading config.
+2025-10-06 19:09:13,299 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-06 19:09:13,299 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp5\config\config.yaml
+2025-10-06 19:09:13,299 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-06 19:09:13,316 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-06 19:09:13,316 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp5\config\config.yaml.
+2025-10-06 19:09:13,333 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config.yaml
+2025-10-06 19:09:13,333 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_sounds.yaml
+2025-10-06 19:09:13,333 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_ball_devices.yaml
+2025-10-06 19:09:13,333 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_coils.yaml
+2025-10-06 19:09:13,333 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_flippers.yaml
+2025-10-06 19:09:13,347 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_switches.yaml
+2025-10-06 19:09:13,349 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp5\config\config_lights.yaml
+2025-10-06 19:09:13,349 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\bad76953a596b8c99f832e0e98026c3b.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77a998d318c788df5647a1900cedfc56.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\8ddee2e87a4f178751335e99da00e9c4.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\16d594341c3fbe91b1b6d496c05a6fb0.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9ea1b14cb2b1cce5e8bf981a1ff8cfc5.mpf_cache
+2025-10-06 19:09:13,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\6cbce11faef0ddcfeddb2a5b8dbeb4ae.mpf_cache
+2025-10-06 19:09:13,467 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-06 19:09:13,467 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-06-19-09-13-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-06 19:09:13,467 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-06 19:09:13,467 : INFO : Machine : Machine path: C:\Users\richa\ttp5
+2025-10-06 19:09:13,467 : INFO : Machine : Platform: win32
+2025-10-06 19:09:13,467 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-06 19:09:13,467 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-06 19:09:13,467 : INFO : Machine : Initializing MPF...
+2025-10-06 19:09:14,027 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,079 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,079 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,080 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,080 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,080 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-06 19:09:14,089 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-06 19:09:14,125 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('6', <Platform.SmartVirtual>) <switch.s_trough5>
+2025-10-06 19:09:14,126 : INFO : SwitchController : Found active switch: ('7', <Platform.SmartVirtual>) <switch.s_trough6>
+2025-10-06 19:09:14,130 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-06 19:09:14,133 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-06 19:09:20,054 : INFO : Machine : Starting the main run loop.
+2025-10-06 19:09:20,054 : INFO : Machine : Shutting down...
+2025-10-06 19:09:20,054 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-06 19:09:21,054 : INFO : root : MPF run loop ended.
