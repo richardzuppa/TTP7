@@ -7,23 +7,25 @@
 
 
 mode:
-  start_events: ball_starting
+  start_events: rollover_lanes_lit_complete, right_scoop_shot_hit
   stop_events: timer_mode_timer_complete, standups_skill_hit
   priority: 300
 
 timers:
   mode_timer:
-    start_value: 30
+    start_value: 5
     end_value: 0
     direction: down
     tick_interval: 1s
     control_events:
-    - event: balldevice_playfield_ball_enter
+    # - event: balldevice_playfield_ball_enter
+    - event: rollover_lanes_lit_complete
       action: start
     start_running: false
   target_rotator:
     start_running: true
     tick_interval: 1s
+    
 
 slide_player:
    mode_skillshot_started:
@@ -34,9 +36,6 @@ slide_player:
         min_digits: 2
         font_size: 50
       
-
-
-
 
 shot_profiles:
   skill:
@@ -53,13 +52,17 @@ shot_profiles:
 
 shot_groups:
   standups_skill:
-    shots: standup_1_skill, standup_2_skill, standup_3_skill, standup_4_skill, standup_5_skill
+    shots: standup_1_skill, standup_2_skill, standup_3_skill, standup_4_skill, standup_5_skill, standup_6_skill
     rotate_events: timer_target_rotator_tick
     reset_events: mode_skillshot_started|1
+   
+
 
 variable_player:
   standups_skill_hit:
-    score: 200000
+    score: 500000
+  
+   
 
 shots:
   standup_1_skill:
@@ -88,3 +91,8 @@ shots:
     profile: skill
     show_tokens:
       light: l_standup_5
+  standup_6_skill:
+    switch: s_standup_6
+    profile: skill
+    show_tokens:
+      light: l_standup_6

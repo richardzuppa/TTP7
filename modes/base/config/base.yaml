@@ -92,6 +92,12 @@ shots:
     show_tokens:
       light: l_right_rollover
 
+# right scoop
+  right_scoop_shot:
+    switch: s_right_scoop
+    show_tokens:
+     light: l_right_scoop
+
 
 
 # Bumpers
