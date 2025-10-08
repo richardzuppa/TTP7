@@ -77,24 +77,24 @@ switches:
     number: 153
     tags: E_droptarget
   
-  s_Tb:
+  s_standup_1:
     number: 154
-    tags: Tb_droptarget
-  s_R:
+    tags: standup_1 
+  s_standup_2:
     number: 155
-    tags: R_droptarget
-  s_A:
+    tags: standup_2
+  s_standup_3:
     number: 156
-    tags: A_droptarget
-  s_V:
+    tags: standup_3
+  s_standup_4:
     number: 157
-    tags: V_droptarget
-  s_Eb:
+    tags: standup_4
+  s_standup_5:
     number: 158
-    tags: Eb_droptarget
-  s_L:
+    tags: standup_5
+  s_standup_6:
     number: 159
-    tags: L_droptarget
+    tags: standup_6
 
   s_left_center_target:
     number: 160

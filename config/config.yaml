@@ -16,6 +16,7 @@ config:
 
 modes:
  - base
+ - skillshot
 
 displays:
   window:

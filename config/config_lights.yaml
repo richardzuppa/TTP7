@@ -10,17 +10,17 @@ lights:
     number: 3
   l_E:
     number: 4
-  l_Tb:
+  l_standup_1:
     number: 5
-  l_R:
+  l_standup_2:
     number: 6
-  l_A:
+  l_standup_3:
     number: 7
-  l_V:
+  l_standup_4:
     number: 8
-  l_Eb:
+  l_standup_5:
     number: 9
-  l_L:
+  l_standup_6:
     number: 10
  
  # Rollover

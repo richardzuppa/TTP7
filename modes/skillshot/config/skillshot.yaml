@@ -1,0 +1,90 @@
+#config_version=6
+
+# Skill shot mode
+# One of the five standup targets is lit, sweeping back-and-forth at a 1s interval. Hit the lit
+# standup for 200,000 points. Mode timer starts when the ball enters the playfield and stops 3s
+# after that so the player only gets one shot.
+
+
+mode:
+  start_events: ball_starting
+  stop_events: timer_mode_timer_complete, standups_skill_hit
+  priority: 300
+
+timers:
+  mode_timer:
+    start_value: 30
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+    - event: balldevice_playfield_ball_enter
+      action: start
+    start_running: false
+  target_rotator:
+    start_running: true
+    tick_interval: 1s
+
+slide_player:
+   mode_skillshot_started:
+     widgets:
+      - type: text
+        text: (SKILL SHOT!!!!!)
+        number_grouping: true
+        min_digits: 2
+        font_size: 50
+      
+
+
+
+
+shot_profiles:
+  skill:
+    rotation_pattern: r, r, r, r, l, l, l, l
+    states:
+    - name: unlit
+      show: off
+    - name: lit
+      show: flash
+      loops: -1
+      speed: 10
+    - name: hit
+      show: on
+
+shot_groups:
+  standups_skill:
+    shots: standup_1_skill, standup_2_skill, standup_3_skill, standup_4_skill, standup_5_skill
+    rotate_events: timer_target_rotator_tick
+    reset_events: mode_skillshot_started|1
+
+variable_player:
+  standups_skill_hit:
+    score: 200000
+
+shots:
+  standup_1_skill:
+    switch: s_standup_1
+    profile: skill
+    advance_events: mode_skillshot_started
+    show_tokens:
+      light: l_standup_1
+  standup_2_skill:
+    switch: s_standup_2
+    profile: skill
+    show_tokens:
+      light: l_standup_2
+  standup_3_skill:
+    switch: s_standup_3
+    profile: skill
+    show_tokens:
+      light: l_standup_3
+  standup_4_skill:
+    switch: s_standup_4
+    profile: skill
+    show_tokens:
+      light: l_standup_4
+  standup_5_skill:
+    switch: s_standup_5
+    profile: skill
+    show_tokens:
+      light: l_standup_5

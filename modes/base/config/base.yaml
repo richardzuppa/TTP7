@@ -2,6 +2,7 @@
 
 mode:
   start_events: ball_started
+  stop_events:  
   priority: 100
 
 

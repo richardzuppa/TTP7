@@ -6,44 +6,44 @@
   lights:
     l_I: 0
     l_T: ff
-    l_R: 0
-    l_Tb: ff
+    l_standup_2: 0
+    l_standup_1: ff
 - duration: 1
   lights:
     l_T: 0
     l_I: blue
-    l_Tb: 0
-    l_R: ff
+    l_standup_1: 0
+    l_standup_2: ff
 - duration: 1
   lights:
     l_I: 0
     l_M: ff
-    l_R: 0
-    l_A: ff
+    l_standup_2: 0
+    l_standup_3: ff
 - duration: 1
   lights:
     l_M: 0
     l_E: ff
-    l_A: 0
-    l_V: ff
+    l_standup_3: 0
+    l_standup_4: ff
 - duration: 1
   lights:
     l_E: 0
     l_M: ff
-    l_V: 0
-    l_Eb: ff
+    l_standup_4: 0
+    l_standup_5: ff
 - duration: 1
   lights:
     l_M: 0
     l_I: ff
-    l_Eb: 0
-    l_L: ff
+    l_standup_5: 0
+    l_standup_6: ff
 - duration: 1
   lights:
     l_I: 0
     l_T: ff
-    l_L: 0
-    l_Tb: 0
+    l_standup_6: 0
+    l_standup_1: 0
 
 # - duration: 1
 #   lights:

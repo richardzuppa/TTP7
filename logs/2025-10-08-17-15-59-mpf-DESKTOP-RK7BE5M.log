@@ -1,0 +1,112 @@
+2025-10-08 17:15:59,387 : INFO : root : Loading config.
+2025-10-08 17:15:59,391 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-08 17:15:59,392 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-08 17:15:59,469 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-08 17:15:59,470 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-08 17:15:59,471 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-08 17:15:59,471 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\skillshot\config\skillshot.yaml
+2025-10-08 17:15:59,472 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\skillshot\config\skillshot.yaml.
+2025-10-08 17:15:59,483 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\skillshot\config\skillshot.yaml
+2025-10-08 17:15:59,484 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-08 17:15:59,485 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b710dc01437f1dfd05f3b5275f67493b.mpf_cache
+2025-10-08 17:15:59,486 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\0a23590f4081187a3ecee75c7657616e.mpf_cache
+2025-10-08 17:15:59,487 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\374a5edaf0766cb9005f368df852c09d.mpf_cache
+2025-10-08 17:15:59,487 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-08 17:15:59,487 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-08-17-15-59-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-08 17:15:59,487 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-08 17:15:59,487 : INFO : Machine : Machine path: C:\Users\richa\ttp7
+2025-10-08 17:15:59,487 : INFO : Machine : Platform: win32
+2025-10-08 17:15:59,487 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-08 17:15:59,487 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-08 17:15:59,489 : INFO : Machine : Initializing MPF...
+2025-10-08 17:16:00,039 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,101 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,101 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 211200, 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,101 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,101 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,101 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,110 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,110 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,110 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,110 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,110 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-08 17:16:00,111 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-08 17:16:00,147 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('5', <Platform.SmartVirtual>) <switch.s_trough4>
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('6', <Platform.SmartVirtual>) <switch.s_trough5>
+2025-10-08 17:16:00,147 : INFO : SwitchController : Found active switch: ('7', <Platform.SmartVirtual>) <switch.s_trough6>
+2025-10-08 17:16:00,150 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...layer': 1}]")>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...layer': 1}]")>)>
+Traceback (most recent call last):
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 791, in _queue_task_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 704, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\config_players\device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player mode_skillshot_started:slides [{'type': 'text', 'text': 'SKILLSHOT: LIT STANDUP', 'decorators': {'type': 'blink', 'repeats': -1, 'on_secs': 0.5, 'off_secs': 0.5}, 'font': 'small', 'y': 1, 'shade': 0, 'layer': 1}]
+2025-10-08 17:16:00,165 : INFO : Machine : Starting the main run loop.
+2025-10-08 17:16:00,173 : INFO : Machine : Shutting down...
+2025-10-08 17:16:00,174 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-08 17:16:01,185 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 791, in _queue_task_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 704, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\config_players\device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player mode_skillshot_started:slides [{'type': 'text', 'text': 'SKILLSHOT: LIT STANDUP', 'decorators': {'type': 'blink', 'repeats': -1, 'on_secs': 0.5, 'off_secs': 0.5}, 'font': 'small', 'y': 1, 'shade': 0, 'layer': 1}]
+2025-10-08 17:16:05,542 : ERROR : root : 
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 791, in _queue_task_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 704, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\config_players\device_config_player.py", line 44, in validate_config_entry
+    raise AssertionError(
+AssertionError: Invalid settings for player mode_skillshot_started:slides [{'type': 'text', 'text': 'SKILLSHOT: LIT STANDUP', 'decorators': {'type': 'blink', 'repeats': -1, 'on_secs': 0.5, 'off_secs': 0.5}, 'font': 'small', 'y': 1, 'shade': 0, 'layer': 1}]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\commands\game.py", line 236, in __init__
+    self.machine.run()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 684, in run
+    self._run_loop()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 791, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError
