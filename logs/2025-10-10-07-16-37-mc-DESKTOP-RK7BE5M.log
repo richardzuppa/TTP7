@@ -1,0 +1,32 @@
+2025-10-10 07:16:37,281 : kivy : deps: Successfully imported "kivy_deps.gstreamer" 0.3.3
+2025-10-10 07:16:37,281 : kivy : deps: Successfully imported "kivy_deps.angle" 0.3.3
+2025-10-10 07:16:37,281 : kivy : deps: Successfully imported "kivy_deps.glew" 0.3.1
+2025-10-10 07:16:37,281 : kivy : deps: Successfully imported "kivy_deps.sdl2" 0.6.0
+2025-10-10 07:16:37,281 : kivy : Kivy: v2.2.1
+2025-10-10 07:16:37,281 : kivy : Kivy: Installed at "C:\Users\richa\mpfvirtual4\lib\site-packages\kivy\__init__.py"
+2025-10-10 07:16:37,281 : kivy : Python: v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+2025-10-10 07:16:37,281 : kivy : Python: Interpreter at "C:\Users\richa\mpfvirtual4\Scripts\python.exe"
+2025-10-10 07:16:37,296 : kivy : Factory: 190 symbols loaded
+2025-10-10 07:16:37,478 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.5.0
+2025-10-10 07:16:37,478 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2025-10-10 07:16:37,615 : kivy : VideoGstplayer: Using Gstreamer 1.18.5.0
+2025-10-10 07:16:37,615 : kivy : Video: Provider: gstplayer
+2025-10-10 07:16:37,648 : root : Loading MPF-MC controller
+2025-10-10 07:16:37,651 : YamlMultifileConfigLoader : Machine config file #1: config
+2025-10-10 07:16:37,651 : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\config\config
+2025-10-10 07:16:37,651 : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml.
+2025-10-10 07:16:37,658 : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmc\mcconfig.yaml
+2025-10-10 07:16:37,658 : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\config\config.
+2025-10-10 07:16:37,659 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config
+2025-10-10 07:16:37,660 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_sounds.yaml
+2025-10-10 07:16:37,661 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-10 07:16:37,662 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-10 07:16:37,663 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_flippers.yaml
+2025-10-10 07:16:37,666 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_switches.yaml
+2025-10-10 07:16:37,670 : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_lights.yaml
+2025-10-10 07:16:37,672 : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\b8d8c5e8bc023a38ee4d8abbd35c8fd3.mpf_cache
+2025-10-10 07:16:37,672 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-10 07:16:37,673 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-10 07:16:37,673 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-10 07:16:37,674 : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-10 07:16:37,675 : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\super_jets_setup\config\super_jets_setup.yaml.

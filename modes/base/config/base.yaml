@@ -74,10 +74,14 @@ sound_player:
       action: play
       loops: 1
 
+
+
+
+
+
 shots:
 
 # Rollover
-  
 
   left_rollover_shot:
     switch: s_left_rollover
@@ -97,6 +101,8 @@ shots:
     switch: s_right_scoop
     show_tokens:
      light: l_right_scoop
+     
+  
 
 
 
@@ -145,30 +151,5 @@ variable_player:
   bumper1_shot_hit:
     score: 100
   bumper2_shot_hit:
-    score: 175
+    score: 100
 
-
-# EXEMPLOS
-
- # s_left_flipper_active:
-  #   score: 1000
-  #   potato: 1
-  # s_right_flipper_active:
-  #   potato: -2
-
-#   center_rollover_shot:
-#     switch: s_center_rollover
-#     show_tokens:
-#       led: l_left_rollover
-#     profile: center_rollover_profile
-
-# shot_profiles:
-#   center_rollover_profile:
-#     states:
-#      - name: unlit
-#        show: off
-#      - name: flashing
-#        show: flash 
-#      - name: lit
-#        show: on
-#     loop: true

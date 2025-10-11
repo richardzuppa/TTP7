@@ -145,10 +145,10 @@ switches:
 # Bumpers
   s_bumper1:
     number: 173
-    tags: bumper1
+    tags: bumper1, jets
   s_bumper2:
     number: 174
-    tags: bumper2
+    tags: bumper2, jets
 
   
   #autofire

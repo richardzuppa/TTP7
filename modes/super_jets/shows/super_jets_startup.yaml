@@ -1,0 +1,12 @@
+#show_version=6
+
+  - duration: 2s
+    slides:
+      super_jets_startup:
+        widgets:
+        - type: text
+          text: SUPER JETS
+          font_size: 20
+          y: 60%
+
+  

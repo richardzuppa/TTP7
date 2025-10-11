@@ -1,0 +1,23 @@
+#config_version=6
+
+mode:
+  start_events: Super_Jets_Go, Super_Jets_Resume_Go
+  priority: 300
+variable_player:
+  s_bumper1_active:
+    score: 3000000|block
+  s_bumper2_active:
+    score: 3000000|block
+  
+
+ 
+
+show_player:
+  mode_super_jets_started:
+    super_jets_startup:
+      loops: 0
+    Super_Jets_on:
+      show_tokens:
+        lights: l_super_jets
+
+

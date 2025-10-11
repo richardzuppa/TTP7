@@ -9,7 +9,7 @@
 mode:
   start_events: rollover_lanes_lit_complete, right_scoop_shot_hit
   stop_events: timer_mode_timer_complete, standups_skill_hit
-  priority: 300
+  priority: 150
 
 timers:
   mode_timer:
@@ -21,7 +21,7 @@ timers:
     # - event: balldevice_playfield_ball_enter
     - event: rollover_lanes_lit_complete
       action: start
-    start_running: false
+    start_running: true
   target_rotator:
     start_running: true
     tick_interval: 1s
@@ -54,7 +54,8 @@ shot_groups:
   standups_skill:
     shots: standup_1_skill, standup_2_skill, standup_3_skill, standup_4_skill, standup_5_skill, standup_6_skill
     rotate_events: timer_target_rotator_tick
-    reset_events: mode_skillshot_started|1
+    # reset_events: mode_skillshot_started|1
+    reset_events: standups_skill_complete
    
 
 

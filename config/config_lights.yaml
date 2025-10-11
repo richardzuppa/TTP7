@@ -171,7 +171,10 @@ lights:
     number: 72
   l_special:
     number: 73
-  
+
+  #Superjet
+  l_super_jets:
+    number: 74
   
 
 
