@@ -63,7 +63,7 @@ switches:
     number: 102
     tags: right_rollover
   
-  # Drop Targets
+# Droptarget TIME
   s_T:
     number: 150
     tags: T_droptarget
@@ -151,10 +151,31 @@ switches:
     tags: bumper2, jets
 
   
-  #autofire
+#autofire
   s_sling_left:
     number: 200
   s_sling_right:
     number: 201
+
+drop_targets:
+  T:
+    switch: s_T
+    reset_coil: c_reset_droptarget_TIME
+  I:
+    switch: s_I
+    reset_coil: c_reset_droptarget_TIME
+  M:
+    switch: s_M
+    reset_coil: c_reset_droptarget_TIME
+  E:
+    switch: s_E
+    reset_coil: c_reset_droptarget_TIME
+
+drop_target_banks:
+  TIME:
+    drop_targets: T, I, M, E
+    reset_coils: c_reset_droptarget_TIME
+    reset_on_complete: 1s
+       
   
    

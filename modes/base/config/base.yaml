@@ -67,12 +67,25 @@ show_player:
       speed: 20
       loops: 10
       priority: 1
+  
+  TIME_droptargets_lit_complete:
+    TIME_complete:
+      speed: 20
+      loops: 10
+      priority: 2
+      
 
 sound_player:
   rollover_lanes_complete:
     go:
       action: play
       loops: 1
+
+  TIME_droptargets_lit_complete:
+    time:
+      action: play
+      loops: 
+    
 
 
 
@@ -101,6 +114,24 @@ shots:
     switch: s_right_scoop
     show_tokens:
      light: l_right_scoop
+
+# TIME Droptarget
+  T:
+    switch: s_T
+    show_tokens: 
+      light: l_T
+  I:
+    switch: s_I
+    show_tokens: 
+      light: l_I
+  M:
+    switch: s_M
+    show_tokens: 
+      light: l_M
+  E:
+    switch: s_E
+    show_tokens: 
+      light: l_E
      
   
 
@@ -124,6 +155,12 @@ shot_groups:
     rotate_left_events: s_left_flipper_active
     rotate_right_events: s_right_flipper_active
     reset_events: rollover_lanes_lit_complete  
+  
+  # TIME Droptargets
+  TIME_droptargets:
+    shots: T, I, M, E
+    reset_events: TIME_droptargets_lit_complete
+    
   
 
 
@@ -152,4 +189,9 @@ variable_player:
     score: 100
   bumper2_shot_hit:
     score: 100
+
+  TIME_droptargets_lit_complete:
+    score: 400000
+   
+  
 

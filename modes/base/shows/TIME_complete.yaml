@@ -1,0 +1,17 @@
+#show_version=6
+
+
+ - duration: 1
+   lights:
+    l_T: 00
+    l_I: 00
+    l_M: 00
+    l_E: 00
+ - duration: 1
+   lights:
+    l_T: FF
+    l_I: FF
+    l_M: FF
+    l_E: FF
+
+ 
