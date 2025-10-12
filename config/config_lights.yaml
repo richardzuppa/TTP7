@@ -175,6 +175,10 @@ lights:
   #Superjet
   l_super_jets:
     number: 74
+
+  #Multiball
+  l_multiball:
+    number: 75
   
 
 

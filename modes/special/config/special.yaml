@@ -1,11 +1,24 @@
 #config_version=6
 
 mode:
-  start_events: Special_Go  
+  start_events: Special_Go
+  stop_events: right_standup_hit
   priority: 500
 
 variable_player:
   s_right_standup_active:
     score: 1000000
 
+shots:
+  right_standup:
+    switch: s_right_standup
 
+
+
+show_player:
+  mode_special_started:
+    special_slide:
+      loops: 0
+    special_showlight:
+      show_tokens:
+        lights: l_special

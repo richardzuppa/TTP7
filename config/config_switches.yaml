@@ -138,16 +138,19 @@ switches:
   s_left_scoop:
     number: 171
     tags: left_scoop
-  s_right_scoop:
+  s_center_scoop:
     number: 172
+    tags: center_scoop
+  s_right_scoop:
+    number: 173
     tags: right_scoop
 
 # Bumpers
   s_bumper1:
-    number: 173
+    number: 174
     tags: bumper1, jets
   s_bumper2:
-    number: 174
+    number: 175
     tags: bumper2, jets
 
   

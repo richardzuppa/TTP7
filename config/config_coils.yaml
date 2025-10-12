@@ -29,20 +29,24 @@ coils:
     number: 12
     label:
     tags:
-  c_right_scoop:
+  c_center_scoop:
     number: 13
     label:
     tags:
-  
-  c_bumper1:
+  c_right_scoop:
     number: 14
+    label:
+    tags:
+
+  c_bumper1:
+    number: 15
 
   c_bumper2:
-    number: 15
+    number: 16
 # Droptarget TIME
   
   c_reset_droptarget_TIME:
-    number: 16 
+    number: 17 
     
 autofire_coils:
   ac_sling_left:
