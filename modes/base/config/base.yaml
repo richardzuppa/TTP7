@@ -14,6 +14,8 @@ counters:
     count_events: s_left_scoop_active
     reset_on_complete: true
     disable_on_complete: false
+
+  
   
 
 light_player:
@@ -67,24 +69,31 @@ show_player:
       speed: 20
       loops: 10
       priority: 1
+   
   
   TIME_droptargets_lit_complete:
     TIME_complete:
       speed: 20
       loops: 10
-      priority: 2
+      priority: 1
       
 
 sound_player:
   rollover_lanes_complete:
     go:
       action: play
-      loops: 1
+      loops: 0
 
   TIME_droptargets_lit_complete:
     time:
       action: play
       loops: 
+  
+  TIME_droptargets_counter_complete: #criar condicional para tocar apenas na 3z vez do counter, eliminando o audio anterior (ate 2a vez)
+    go:
+      action: play
+      loops: 0
+
     
 
 
@@ -189,6 +198,9 @@ variable_player:
     score: 100
   bumper2_shot_hit:
     score: 100
+
+  TIME_droptargets_hit:
+    score: 500
 
   TIME_droptargets_lit_complete:
     score: 400000

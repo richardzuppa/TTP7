@@ -19,6 +19,8 @@ modes:
  - skillshot
  - super_jets_setup
  - super_jets
+ - special_setup
+ - special
 
 displays:
   window:

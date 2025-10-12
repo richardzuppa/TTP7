@@ -1,0 +1,26 @@
+#config_version=6
+
+# SkiSpecial  mode
+# After 3 times TIME_droptargets down, special light is on and standup hit gives a special credit.
+
+
+mode:
+    start_events: ball_starting
+    priority: 400
+
+
+
+
+counters:
+      special_count:
+        count_events: TIME_droptargets_lit_complete
+        starting_count: 0
+        count_complete_value: 3
+        count_interval: 1
+        direction: up
+        persist_state: true
+        events_when_complete: Special_Go
+
+event_player:
+      Special_Go:
+        start_mode_special
