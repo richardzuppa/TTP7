@@ -1,4 +1,9 @@
 #show_version=6
-- time: 0
+- duration: 1
   lights:
    l_special: ff
+   l_right_out_lane: 0
+- duration: 1
+  lights:
+   l_special: 0
+   l_right_out_lane: ff

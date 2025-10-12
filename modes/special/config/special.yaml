@@ -20,5 +20,6 @@ show_player:
     special_slide:
       loops: 0
     special_showlight:
-      show_tokens:
-        lights: l_special
+      # show_tokens:
+      #   lights: l_special
+      speed: 8
