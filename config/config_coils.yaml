@@ -44,9 +44,11 @@ coils:
   c_bumper2:
     number: 16
 # Droptarget TIME
-  
   c_reset_droptarget_TIME:
     number: 17 
+# Droptarget TRAVEL
+  c_reset_droptarget_TRAVEL:
+    number: 18 
     
 autofire_coils:
   ac_sling_left:

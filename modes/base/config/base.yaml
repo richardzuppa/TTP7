@@ -141,7 +141,32 @@ shots:
     switch: s_E
     show_tokens: 
       light: l_E
-     
+
+# TRAVEL Droptarget
+  Tb:
+    switch: s_standup_1
+    show_tokens: 
+      light: l_standup_1
+  R:
+    switch: s_standup_2
+    show_tokens: 
+      light: l_standup_2
+  A:
+    switch: s_standup_3
+    show_tokens: 
+      light: l_standup_3
+  V:
+    switch: s_standup_4
+    show_tokens: 
+      light: l_standup_4
+  Eb:
+    switch: s_standup_5
+    show_tokens: 
+      light: l_standup_5
+  L:
+    switch: s_standup_6
+    show_tokens: 
+      light: l_standup_6
   
 
 
@@ -169,6 +194,10 @@ shot_groups:
   TIME_droptargets:
     shots: T, I, M, E
     reset_events: TIME_droptargets_lit_complete
+  # TRAVEL Droptargets
+  TRAVEL_droptargets:
+    shots: Tb, R, A, V, Eb, L
+    reset_events: TRAVEL_droptargets_lit_complete
     
   
 
@@ -203,6 +232,12 @@ variable_player:
     score: 500
 
   TIME_droptargets_lit_complete:
+    score: 400000
+  
+  TRAVEL_droptargets_hit:
+    score: 500
+  
+  TRAVEL_droptargets_lit_complete:
     score: 400000
    
   

@@ -1,0 +1,12 @@
+2025-10-13 16:58:25,692 : INFO : root : Loading config.
+2025-10-13 16:58:25,696 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-13 16:58:25,697 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-13 16:58:25,698 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-13 16:58:25,698 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-13 16:58:25,713 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-13 16:58:25,714 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\config\config.yaml.
+2025-10-13 16:58:25,716 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config.yaml
+2025-10-13 16:58:25,719 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_sounds.yaml
+2025-10-13 16:58:25,720 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-13 16:58:25,723 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-13 16:58:25,724 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_flippers.yaml
