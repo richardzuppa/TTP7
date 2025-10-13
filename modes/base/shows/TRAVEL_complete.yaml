@@ -1,0 +1,120 @@
+#show_version=6
+
+
+ - duration: 1
+   lights:
+    l_standup_1: FF
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: FF
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: FF
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: FF
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: FF
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: FF
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: FF
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: FF
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: FF
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: FF
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: FF
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: FF
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: 00
+    l_standup_2: 00
+    l_standup_3: 00
+    l_standup_4: 00
+    l_standup_5: 00
+    l_standup_6: 00
+ - duration: 1
+   lights:
+    l_standup_1: FF
+    l_standup_2: FF
+    l_standup_3: FF
+    l_standup_4: FF
+    l_standup_5: FF
+    l_standup_6: FF
+
+
+
+
+ 

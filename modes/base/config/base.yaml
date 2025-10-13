@@ -76,6 +76,12 @@ show_player:
       speed: 20
       loops: 10
       priority: 1
+
+  TRAVEL_droptargets_lit_complete:
+    TRAVEL_complete:
+      speed: 20
+      loops: 0
+      priority: 1
       
 
 sound_player:
@@ -87,7 +93,12 @@ sound_player:
   TIME_droptargets_lit_complete:
     time:
       action: play
-      loops: 
+      loops: 0
+
+  TRAVEL_droptargets_lit_complete:
+    time:
+      action: play
+      loops: 0 
   
   TIME_droptargets_counter_complete: #criar condicional para tocar apenas na 3z vez do counter, eliminando o audio anterior (ate 2a vez)
     go:

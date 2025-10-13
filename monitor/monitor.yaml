@@ -55,9 +55,9 @@ light:
     y: 0.3654434250764526
   l_center_center_target_avance1:
     rotation: 30
-    shape: ARROW
-    x: 0.4525682985975682
-    y: 0.38837920489296635
+    shape: CIRCLE
+    x: 0.45952579066696186
+    y: 0.5019275250578258
   l_center_rollover:
     x: 0.4990596236237593
     y: 0.0779816513761468
@@ -133,9 +133,9 @@ light:
     y: 0.3516819571865443
   l_left_center_target_avance1:
     rotation: 30
-    shape: ARROW
-    x: 0.39826010276586005
-    y: 0.3769113149847094
+    shape: CIRCLE
+    x: 0.5233488171484844
+    y: 0.5011565150346955
   l_left_corridor:
     x: 0.17408900555222973
     y: 0.5723049956178792
@@ -224,9 +224,10 @@ light:
     y: 0.37767584097859325
   l_right_center_target_avance1:
     rotation: 30
-    shape: ARROW
-    x: 0.4996354016517153
-    y: 0.400611620795107
+    shape: CIRCLE
+    size: 0.04
+    x: 0.4048203393970855
+    y: 0.4980724749421743
   l_right_corridor:
     size: 0.04
     x: 0.8061978947597307
