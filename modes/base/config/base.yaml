@@ -64,6 +64,7 @@ slide_player:
         y: 40%
       - type: text
         text: "(machine|credits_string)"
+        y: 10%
 
 show_player:
   rollover_lanes_lit_complete: 
