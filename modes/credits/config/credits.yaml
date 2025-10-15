@@ -1,0 +1,8 @@
+#config_version=6
+
+mode:
+  code: mpf.modes.credits.code.credits.Credits
+  priority: 1000010
+  start_events: reset_complete
+  game_mode: false
+  stop_on_ball_end: false

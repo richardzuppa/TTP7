@@ -29,7 +29,7 @@
             duration: .5s
             repeat: false
       - type: Text
-        text: FREE PLAY
+        text: "(machine|credits_string)"
         color: green
         y: 10
         anchor_y: bottom

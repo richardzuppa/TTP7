@@ -62,6 +62,8 @@ slide_player:
       - type: text
         text: 'POTATO VALUE: (potato)'
         y: 40%
+      - type: text
+        text: "(machine|credits_string)"
 
 show_player:
   rollover_lanes_lit_complete: 

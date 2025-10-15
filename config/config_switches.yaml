@@ -159,7 +159,12 @@ switches:
     number: 200
   s_sling_right:
     number: 201
-
+#credits
+  s_coin_left:
+    number: 250
+  s_service_coin:
+    number: 251
+    
 drop_targets:
   T:
     switch: s_T

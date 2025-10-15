@@ -13,6 +13,7 @@ config:
  - config_flippers.yaml
  - config_switches.yaml
  - config_lights.yaml
+ - config_credits.yaml
 
 modes:
  - base
@@ -21,6 +22,7 @@ modes:
  - super_jets
  - special_setup
  - special
+ - credits
 
 displays:
   window:
@@ -55,6 +57,10 @@ keyboard:
     switch: s_start
   q:
     switch: s_right_inlane
+  c:
+    switch: s_coin_left
+  w:
+    switch: s_service_coin
 
  
 
