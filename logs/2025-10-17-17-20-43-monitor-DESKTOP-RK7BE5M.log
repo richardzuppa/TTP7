@@ -1,0 +1,12 @@
+2025-10-17 17:20:43,173 : INFO : root : Loading MPF Monitor Version 0.57.1
+2025-10-17 17:20:43,215 : ERROR : root : 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmonitor\commands\monitor.py", line 108, in __init__
+    run(machine_path=machine_path, thread_stopper=thread_stopper, config_file=args.configfile)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmonitor\core\mpfmon.py", line 326, in run
+    MPFMonitor(app, machine_path, thread_stopper, config_file, testing=testing)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpfmonitor\core\mpfmon.py", line 56, in __init__
+    self.pf_device_size = self.config.get("device_size", .02)
+AttributeError: 'NoneType' object has no attribute 'get'
+2025-10-17 17:20:43,217 : INFO : root : Stopping child threads... (0 remaining)
+2025-10-17 17:20:43,219 : INFO : root : All child threads stopped.

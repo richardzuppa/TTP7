@@ -1,105 +1,434 @@
 #show_version=6
+- time: 0
+  lights:
+    l_center_rollover: 'C70001'
+    l_extraball: '0051B6'
+    l_left_rollover: 'BF05A0'
+    l_left_scoop: '0051B6'
+    l_right_rollover: 'C70001'
+    
+- time: '+1'
+  lights:
+    l_gi14: '1B593C'
+    l_gi7: '9A5D00'
+    l_left_scoop: '0000C8'
+    l_left_scoop_avance2: '0051B6'
+    l_top_left_standup_2: '0051B6'
+    
+- time: '+1'
+  lights:
+    l_gi15: '0051B6'
+    l_gi7: 'C87900'
+    l_left_scoop_avance1: '0051B6'
+    l_left_scoop_avance2: '0000C8'
+    l_right_scoop: '71691E'
+    l_right_scoop_avance2: '1B593C'
+    
+- time: '+1'
+  lights:
+    l_center_rollover: '000000'
+    l_extraball: '0000C8'
+    l_gi7: 'C8401F'
+    l_left_rollover: '000000'
+    l_left_scoop: '7A2AB9'
+    l_left_scoop_avance1: '0000C8'
+    l_right_rollover: '000000'
+    l_right_scoop: 'C87900'
+    l_right_scoop_avance1: '1B593C'
+    l_right_scoop_avance2: 'C87900'
+    l_top_lef_standup: '0051B6'
+    
+- time: '+1'
+  lights:
+    l_extraball: '7A2AB9'
+    l_gi13: 'C87900'
+    l_gi14: 'C8401F'
+    l_gi7: '000000'
+    l_left_scoop_avance2: '7A2AB9'
+    l_right_scoop_avance1: 'C87900'
+    l_super_jets: '16584F'
+    l_top_lef_standup: '0000C8'
+    l_top_left_standup_2: '0000C8'
+    
+- time: '+1'
+  lights:
+    l_extraball: 'BF05A0'
+    l_gi14: 'C70001'
+    l_gi15: '7A2AB9'
+    l_left_corridor_2: '000FC4'
+    l_left_scoop: 'BF05A0'
+    l_left_scoop_avance1: '7A2AB9'
+    l_right_scoop: 'C8401F'
+    l_right_scoop_avance2: 'C8401F'
+    l_standup_1: '1B593C'
+    l_super_jets: '115665'
+    l_top_left_standup_2: '7A2AB9'
+    
+- time: '+1'
+  lights:
+    l_gi15: 'BF05A0'
+    l_gi4: '0000C8'
+    l_left_center_target: '0051B6'
+    l_left_corridor_2: '0000C8'
+    l_left_scoop: '000000'
+    l_left_scoop_avance2: 'BF05A0'
+    l_right_scoop_avance1: 'C8401F'
+    l_standup_1: 'C87900'
+    l_standup_2: '1B593C'
+    l_top_lef_standup: '7A2AB9'
+    l_top_left_standup_2: 'BF05A0'
+    
+- time: '+1'
+  lights:
+    l_center_center_target: '1B593C'
+    l_extraball: '000000'
+    l_gi13: 'C8401F'
+    l_gi8: 'C87900'
+    l_left_scoop_avance1: 'BF05A0'
+    l_left_scoop_avance2: '000000'
+    l_right_center_target: '1B593C'
+    l_right_scoop: '050000'
+    l_right_scoop_avance2: 'C70001'
+    l_standup_2: '936F12'
+    l_standup_3: '1B593C'
+    l_super_jets: 'C40237'
+    
+- time: '+1'
+  lights:
+    l_E: '0051B6'
+    l_gi12: 'C87900'
+    l_gi14: '000000'
+    l_gi4: '7A2AB9'
+    l_gi8: 'C8401F'
+    l_left_corridor_2: '7A2AB9'
+    l_left_scoop_avance1: '000000'
+    l_right_scoop: '000000'
+    l_right_scoop_avance1: 'C70001'
+    l_right_scoop_avance2: '000000'
+    l_standup_1: 'C8401F'
+    l_standup_2: 'C87900'
+    l_standup_4: '1B593C'
+    l_top_lef_standup: 'BF05A0'
+    l_top_left_standup_2: '000000'
+    
+- time: '+1'
+  lights:
+    l_E: '0000C8'
+    l_M: '0051B6'
+    l_gi13: '000000'
+    l_gi15: '000000'
+    l_left_center_target: '0000C8'
+    l_right_scoop_avance1: '000000'
+    l_standup_2: 'C8401F'
+    l_standup_3: 'C87900'
+    l_standup_5: '1B593C'
+    l_top_lef_standup: '000000'
+    
+- time: '+1'
+  lights:
+    l_I: '0051B6'
+    l_M: '0037BB'
+    l_center_center_target: 'C70001'
+    l_gi11: '0000C8'
+    l_gi4: '000000'
+    l_gi8: '000000'
+    l_left_center_target: 'BF05A0'
+    l_left_corridor_2: '000000'
+    l_right_center_target: 'C87900'
+    l_standup_1: 'C70001'
+    l_standup_3: 'C8401F'
+    l_standup_4: 'C87900'
+    l_standup_6: '1B593C'
+    l_super_jets: 'C30354'
+    
+- time: '+1'
+  lights:
+    l_E: '7A2AB9'
+    l_M: '0000C8'
+    l_T: '0051B6'
+    l_center_center_target_avance1: '0D557C'
+    l_gi12: 'C8401F'
+    l_left_center_target_avance1: '0051B6'
+    l_right_center_target: 'C70001'
+    l_right_center_target_avance1: '1B593C'
+    l_standup_1: '000000'
+    l_standup_2: 'C70001'
+    l_standup_4: 'C8401F'
+    l_standup_5: 'C87900'
+    l_super_jets: '000000'
+    
+- time: '+1'
+  lights:
+    l_E: 'BF05A0'
+    l_I: '0000C8'
+    l_M: '7A2AB9'
+    l_gi11: '7A2AB9'
+    l_gi9: 'C87900'
+    l_multiball: '115666'
+    l_standup_2: '000000'
+    l_standup_3: 'C70001'
+    l_standup_6: 'C87900'
+    
+- time: '+1'
+  lights:
+    l_I: '7A2AB9'
+    l_T: '0000C8'
+    l_gi10: '0000C8'
+    l_gi12: '000000'
+    l_left_center_target: '000000'
+    l_right_standup: '1B593C'
+    l_standup_3: '000000'
+    l_standup_4: 'C70001'
+    l_standup_5: 'C8401F'
+    
+- time: '+1'
+  lights:
+    l_E: '000000'
+    l_M: 'BF05A0'
+    l_T: '7A2AB9'
+    l_center_center_target: '000000'
+    l_left_center_target_avance1: '7A2AB9'
+    l_right_center_target: '000000'
+    l_right_center_target_avance1: 'C8401F'
+    l_right_corridor: 'C87900'
+    l_right_standup: 'C87900'
+    l_special: '1B593C'
+    l_standup_5: 'C70001'
+    l_standup_6: 'C8401F'
+    
+- time: '+1'
+  lights:
+    l_I: 'BF05A0'
+    l_M: '000000'
+    l_center_center_target_avance1: 'C20473'
+    l_gi11: '000000'
+    l_gi9: 'C8401F'
+    l_left_center_target_avance1: 'BF05A0'
+    l_left_corridor: '0000C8'
+    l_left_corridor_avance1: '0051B6'
+    l_left_corridor_avance4: 'C87900'
+    l_left_corridor_avance5: '1B593C'
+    l_multiball: '0C557D'
+    l_right_center_target_avance1: 'C70001'
+    l_special: 'C87900'
+    l_standup_4: '000000'
+    l_standup_6: 'C70001'
+    
+- time: '+1'
+  lights:
+    l_I: '000000'
+    l_T: 'BF05A0'
+    l_gi10: '7A2AB9'
+    l_left_corridor_avance1: '0000C8'
+    l_left_corridor_avance2: '0051B6'
+    l_left_corridor_avance5: 'C87900'
+    l_left_corridor_avance6: '1B593C'
+    l_multiball: 'C30355'
+    l_right_standup: 'C8401F'
+    l_standup_5: '000000'
+    
+- time: '+1'
+  lights:
+    l_T: '000000'
+    l_gi3: '0000C8'
+    l_gi9: '000000'
+    l_left_corridor: '7A2AB9'
+    l_left_corridor_avance2: '0000C8'
+    l_left_corridor_avance3: '0051B6'
+    l_left_corridor_avance4: 'C8401F'
+    l_left_corridor_avance6: 'C87900'
+    l_left_standup: '0000C8'
+    l_right_corridor: 'C8401F'
+    l_special: 'C8401F'
+    l_standup_6: '000000'
+    l_timewarp3: '0051B6'
+    l_timewarp4: '0C557D'
+    l_timewarp5: '1B593C'
+    
+- time: '+1'
+  lights:
+    l_center_center_target_avance1: '000000'
+    l_gi10: '000000'
+    l_gi3: '7A2AB9'
+    l_left_center_target_avance1: '000000'
+    l_left_corridor_avance1: '7A2AB9'
+    l_left_corridor_avance3: '0000C8'
+    l_left_corridor_avance5: 'C8401F'
+    l_right_center_target_avance1: '000000'
+    l_right_standup: 'C70001'
+    l_timewarp2: '0051B6'
+    l_timewarp6: '1B593C'
+    l_timewarp8: '115666'
+    
+- time: '+1'
+  lights:
+    l_left_corridor_avance2: '7A2AB9'
+    l_left_corridor_avance6: 'C8401F'
+    l_left_standup: '7A2AB9'
+    l_multiball: '000000'
+    l_right_corridor: '000000'
+    l_right_standup: '000000'
+    l_special: 'C70001'
+    l_timewarp1: '0051B6'
+    l_timewarp7: '1B593C'
+    
+- time: '+1'
+  lights:
+    l_bonusx7000: '0051B6'
+    l_gi3: '000000'
+    l_left_corridor: '000000'
+    l_left_corridor_avance1: 'A215AA'
+    l_left_corridor_avance3: '7A2AB9'
+    l_left_corridor_avance4: '000000'
+    l_left_corridor_avance5: 'C70001'
+    l_left_corridor_avance6: 'C72914'
+    l_left_inlane: '0000C8'
+    l_right_inlane: 'C87900'
+    l_special: '000000'
+    l_timewarp3: '0000C8'
+    l_timewarp4: 'C10474'
+    l_timewarp5: 'C87900'
+    l_timewarp8: '0C557D'
+    
+- time: '+1'
+  lights:
+    l_bonusx5000: '0252AC'
+    l_left_corridor_avance1: '000000'
+    l_left_corridor_avance2: 'BF05A0'
+    l_left_corridor_avance3: 'BF05A0'
+    l_left_corridor_avance5: '000000'
+    l_left_corridor_avance6: 'C70001'
+    l_timewarp2: '0000C8'
+    l_timewarp3: 'BF05A0'
+    l_timewarp5: 'C70001'
+    l_timewarp6: 'C87900'
+    
+- time: '+1'
+  lights:
+    1_bonusx2000: '0252AC'
+    l_left_corridor_avance2: '000000'
+    l_left_corridor_avance6: '000000'
+    l_left_out_lane: '0000C8'
+    l_left_standup: '000000'
+    l_right_out_lane: 'C87900'
+    l_timewarp1: '0000C8'
+    l_timewarp2: 'BF05A0'
+    l_timewarp4: 'C10475'
+    l_timewarp6: 'C70001'
+    l_timewarp7: 'C87900'
+    l_timewarp8: 'C30356'
+    
+- time: '+1'
+  lights:
+    l_bonusx1000: '0252AC'
+    l_bonusx7000: 'BF05A0'
+    l_left_corridor_avance3: '000000'
+    l_left_inlane: '7A2AB9'
+    l_left_out_lane: '7A2AB9'
+    l_right_inlane: 'C8401F'
+    l_right_out_lane: 'C8401F'
+    l_timewarp1: 'BF05A0'
+    l_timewarp7: 'C70001'
+    
+- time: '+1'
+  lights:
+    1_bonusx2000: '0252AD'
+    l_bonusx100: '0252AD'
+    l_bonusx1000: '0252AD'
+    l_bonusx5000: 'C00594'
+    l_gi1: '0000C8'
+    l_gi2: 'C87900'
+    l_left_out_lane: '421765'
+    l_timewarp3: '000000'
+    l_timewarp4: '000000'
+    l_timewarp5: '000000'
+    
+- time: '+1'
+  lights:
+    1_bonusx2000: 'BF05A0'
+    l_bonusx100: '0051B6'
+    l_bonusx1000: '0051B6'
+    l_bonusx5000: 'BF05A0'
+    l_left_inlane: '000000'
+    l_left_out_lane: '000000'
+    l_right_inlane: '000000'
+    l_right_out_lane: '000000'
+    l_timewarp2: '000000'
+    l_timewarp6: '000000'
+    l_timewarp8: '000000'
+    
+- time: '+1'
+  lights:
+    l_bonusx1000: 'BF05A0'
+    l_gi2: 'C8401F'
+    l_timewarp1: '000000'
+    l_timewarp7: '000000'
+    
+- time: '+1'
+  lights:
+    l_bonusx100: 'BF05A0'
+    l_bonusx7000: '000000'
+    l_gi1: '7A2AB9'
+    l_shot_again: '0051B6'
+    
+- time: '+1'
+  lights:
+    l_bonusx5000: '000000'
+    
+- time: '+1'
+  lights:
+    1_bonusx2000: '000000'
+    l_gi1: '000000'
+    l_gi2: '000000'
+    
+- time: '+1'
+  lights:
+    l_bonusx1000: '000000'
+    l_shot_again: 'BF05A0'
+  
 
 
-# Time Droptarget Time
-- duration: 1
-  lights:
-    l_I: 0
-    l_T: ff
-    l_standup_2: 0
-    l_standup_1: ff
-- duration: 1
-  lights:
-    l_T: 0
-    l_I: blue
-    l_standup_1: 0
-    l_standup_2: ff
-- duration: 1
-  lights:
-    l_I: 0
-    l_M: ff
-    l_standup_2: 0
-    l_standup_3: ff
-- duration: 1
-  lights:
-    l_M: 0
-    l_E: ff
-    l_standup_3: 0
-    l_standup_4: ff
-- duration: 1
-  lights:
-    l_E: 0
-    l_M: ff
-    l_standup_4: 0
-    l_standup_5: ff
-- duration: 1
-  lights:
-    l_M: 0
-    l_I: ff
-    l_standup_5: 0
-    l_standup_6: ff
-- duration: 1
-  lights:
-    l_I: 0
-    l_T: ff
-    l_standup_6: 0
-    l_standup_1: 0
-
+# #Time Droptarget Time
 # - duration: 1
 #   lights:
 #     l_I: 0
 #     l_T: ff
+#     l_standup_2: 0
+#     l_standup_1: ff
 # - duration: 1
 #   lights:
 #     l_T: 0
-#     l_I: ff
+#     l_I: blue
+#     l_standup_1: 0
+#     l_standup_2: ff
 # - duration: 1
 #   lights:
 #     l_I: 0
 #     l_M: ff
+#     l_standup_2: 0
+#     l_standup_3: ff
 # - duration: 1
 #   lights:
 #     l_M: 0
 #     l_E: ff
+#     l_standup_3: 0
+#     l_standup_4: ff
 # - duration: 1
 #   lights:
 #     l_E: 0
 #     l_M: ff
+#     l_standup_4: 0
+#     l_standup_5: ff
 # - duration: 1
 #   lights:
 #     l_M: 0
 #     l_I: ff
+#     l_standup_5: 0
+#     l_standup_6: ff
 # - duration: 1
 #   lights:
 #     l_I: 0
 #     l_T: ff
+#     l_standup_6: 0
+#     l_standup_1: 0
 
-# Time Droptarget Travel
-# - duration: 1
-#   lights:
-#     l_R: 0
-#     l_Tb: ff   
-# - duration: 1
-#   lights:
-#     l_Tb: 0
-#     l_R: ff
-# - duration: 1
-#   lights:
-#     l_R: 0
-#     l_A: ff
-# - duration: 1
-#   lights:
-#     l_A: 0
-#     l_V: ff
-# - duration: 1
-#   lights:
-#     l_V: 0
-#     l_Eb: ff
-# - duration: 1
-#   lights:
-#     l_Eb: 0
-#     l_L: ff
-# - duration: 1
-#   lights:
-#     l_L: 0
-#     l_Tb: 0

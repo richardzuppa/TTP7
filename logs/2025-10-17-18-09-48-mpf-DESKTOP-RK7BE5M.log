@@ -1,0 +1,17 @@
+2025-10-17 18:09:48,601 : INFO : root : Loading config.
+2025-10-17 18:09:48,606 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-17 18:09:48,606 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-17 18:09:48,686 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-17 18:09:48,687 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-17 18:09:48,688 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-17 18:09:48,689 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-17 18:09:48,689 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-17 18:09:48,690 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-17 18:09:48,691 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-17 18:09:48,691 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-17 18:09:48,692 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache
+2025-10-17 18:09:48,693 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b710dc01437f1dfd05f3b5275f67493b.mpf_cache
+2025-10-17 18:09:48,694 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\attract\shows\.\attract_light_show.yaml
+2025-10-17 18:09:48,694 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\attract\shows\.\attract_light_show.yaml.
+2025-10-17 18:09:54,746 : ERROR : root : Shutdown because of SIGINT or keyboard interrupt.
+NoneType: None

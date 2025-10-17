@@ -14,6 +14,7 @@ config:
  - config_switches.yaml
  - config_lights.yaml
  - config_credits.yaml
+ - config_droptargets.yaml
 
 modes:
  - base

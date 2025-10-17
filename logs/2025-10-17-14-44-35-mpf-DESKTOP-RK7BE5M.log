@@ -1,0 +1,152 @@
+2025-10-17 14:44:35,139 : INFO : root : Loading config.
+2025-10-17 14:44:35,143 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-17 14:44:35,144 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-17 14:44:35,145 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-17 14:44:35,145 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-17 14:44:35,156 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-17 14:44:35,156 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\config\config.yaml.
+2025-10-17 14:44:35,159 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config.yaml
+2025-10-17 14:44:35,161 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_sounds.yaml
+2025-10-17 14:44:35,163 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-17 14:44:35,166 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-17 14:44:35,167 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_flippers.yaml
+2025-10-17 14:44:35,182 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_switches.yaml
+2025-10-17 14:44:35,188 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_lights.yaml
+2025-10-17 14:44:35,191 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_credits.yaml
+2025-10-17 14:44:35,195 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-17 14:44:35,281 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-17 14:44:35,282 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-17 14:44:35,282 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-17 14:44:35,283 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-17 14:44:35,284 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-17 14:44:35,285 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-17 14:44:35,285 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-17 14:44:35,286 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-17 14:44:35,287 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache
+2025-10-17 14:44:35,288 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b710dc01437f1dfd05f3b5275f67493b.mpf_cache
+2025-10-17 14:44:35,288 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\0a23590f4081187a3ecee75c7657616e.mpf_cache
+2025-10-17 14:44:35,289 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\374a5edaf0766cb9005f368df852c09d.mpf_cache
+2025-10-17 14:44:35,289 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b50d1c72289d6f8f00cba34766fbb2e5.mpf_cache
+2025-10-17 14:44:35,290 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\bfc680b70531e398658191c2a179bce0.mpf_cache
+2025-10-17 14:44:35,291 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\069a726c379c7a3dc006889318eb30f2.mpf_cache
+2025-10-17 14:44:35,291 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\6159dd3e8b071f5aa615e717784124e9.mpf_cache
+2025-10-17 14:44:35,293 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e382c4765158d2be92c1673fc03a4ad6.mpf_cache
+2025-10-17 14:44:35,293 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\868b3b6361e3aaa0a56bd50d9388247e.mpf_cache
+2025-10-17 14:44:35,294 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-17 14:44:35,294 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-17-14-44-35-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-17 14:44:35,294 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-17 14:44:35,294 : INFO : Machine : Machine path: C:\Users\richa\ttp7
+2025-10-17 14:44:35,294 : INFO : Machine : Platform: win32
+2025-10-17 14:44:35,294 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-17 14:44:35,294 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-17 14:44:35,296 : INFO : Machine : Initializing MPF...
+2025-10-17 14:44:35,659 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,720 : INFO : EventManager : Event: ======'machine_var_credit_units'====== Args={'value': 20, 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_free_play'====== Args={'value': False, 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 13133700, 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,721 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-17 14:44:35,731 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-17 14:44:35,764 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 205, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 257, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 683, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 700, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:CENTER:drop_targets = "left_center_target" is not valid. Device "left_center_target" not found in "drop_targets:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-10-17 14:44:35,766 : INFO : Machine : Starting the main run loop.
+2025-10-17 14:44:35,772 : INFO : Machine : Shutting down...
+2025-10-17 14:44:35,772 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-17 14:44:36,782 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 205, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 257, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 683, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 700, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:CENTER:drop_targets = "left_center_target" is not valid. Device "left_center_target" not found in "drop_targets:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-10-17 14:44:39,188 : ERROR : root : 
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 205, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 257, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 683, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 700, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:CENTER:drop_targets = "left_center_target" is not valid. Device "left_center_target" not found in "drop_targets:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\commands\game.py", line 236, in __init__
+    self.machine.run()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 684, in run
+    self._run_loop()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 791, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

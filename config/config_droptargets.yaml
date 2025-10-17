@@ -1,0 +1,63 @@
+#config_version=6
+
+drop_targets:
+# TIME_Droptargets
+  T:
+    switch: s_T
+    reset_coil: c_reset_droptarget_TIME
+  I:
+    switch: s_I
+    reset_coil: c_reset_droptarget_TIME
+  M:
+    switch: s_M
+    reset_coil: c_reset_droptarget_TIME
+  E:
+    switch: s_E
+    reset_coil: c_reset_droptarget_TIME
+# CENTER_Droptargets
+  left_center_droptarget:
+    switch: s_left_center_target
+    reset_coil: c_reset_droptarget_center
+  center_center_droptarget:
+    switch: s_center_center_target
+    reset_coil: c_reset_droptarget_center
+  right_center_droptarget:
+    switch: s_right_center_target
+    reset_coil: c_reset_droptarget_center
+  
+# TRAVEL_Droptargets
+  s_standup_1:
+    switch: s_standup_1
+    reset_coil: c_reset_droptarget_TRAVEL
+  s_standup_2:
+    switch: s_standup_2
+    reset_coil: c_reset_droptarget_TRAVEL
+  s_standup_3:
+    switch: s_standup_3
+    reset_coil: c_reset_droptarget_TRAVEL
+  s_standup_4:
+    switch: s_standup_4
+    reset_coil: c_reset_droptarget_TRAVEL
+  s_standup_5:
+    switch: s_standup_5
+    reset_coil: c_reset_droptarget_TRAVEL
+  s_standup_6:
+    switch: s_standup_6
+    reset_coil: c_reset_droptarget_TRAVEL
+
+#DROPTARGETS_BANKS
+drop_target_banks:
+  TIME:
+    drop_targets: T, I, M, E
+    reset_coils: c_reset_droptarget_TIME
+    reset_on_complete: 1s
+  
+  CENTER:
+    drop_targets:  left_center_droptarget, center_center_droptarget, right_center_droptarget
+    reset_coils: c_reset_droptarget_center
+    reset_on_complete: 1s
+
+  TRAVEL:
+    drop_targets: s_standup_1, s_standup_2, s_standup_3, s_standup_4, s_standup_5, s_standup_6  
+    reset_coils: c_reset_droptarget_TRAVEL
+    reset_on_complete: 1s

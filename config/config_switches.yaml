@@ -76,7 +76,7 @@ switches:
   s_E:
     number: 153
     tags: E_droptarget
-  
+# Droptarget TRAVEL 
   s_standup_1:
     number: 154
     tags: standup_1 
@@ -95,7 +95,7 @@ switches:
   s_standup_6:
     number: 159
     tags: standup_6
-
+# Droptarget Center
   s_left_center_target:
     number: 160
     tags: left_center_target
@@ -165,49 +165,7 @@ switches:
   s_service_coin:
     number: 251
     
-drop_targets:
-  T:
-    switch: s_T
-    reset_coil: c_reset_droptarget_TIME
-  I:
-    switch: s_I
-    reset_coil: c_reset_droptarget_TIME
-  M:
-    switch: s_M
-    reset_coil: c_reset_droptarget_TIME
-  E:
-    switch: s_E
-    reset_coil: c_reset_droptarget_TIME
-  s_standup_1:
-    switch: s_standup_1
-    reset_coil: c_reset_droptarget_TRAVEL
-  s_standup_2:
-    switch: s_standup_2
-    reset_coil: c_reset_droptarget_TRAVEL
-  s_standup_3:
-    switch: s_standup_3
-    reset_coil: c_reset_droptarget_TRAVEL
-  s_standup_4:
-    switch: s_standup_4
-    reset_coil: c_reset_droptarget_TRAVEL
-  s_standup_5:
-    switch: s_standup_5
-    reset_coil: c_reset_droptarget_TRAVEL
-  s_standup_6:
-    switch: s_standup_6
-    reset_coil: c_reset_droptarget_TRAVEL
-
-drop_target_banks:
-  TIME:
-    drop_targets: T, I, M, E
-    reset_coils: c_reset_droptarget_TIME
-    reset_on_complete: 1s
-
  
-  TRAVEL:
-    drop_targets: s_standup_1, s_standup_2, s_standup_3, s_standup_4, s_standup_5, s_standup_6  
-    reset_coils: c_reset_droptarget_TRAVEL
-    reset_on_complete: 1s
        
   
    

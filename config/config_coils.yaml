@@ -46,9 +46,12 @@ coils:
 # Droptarget TIME
   c_reset_droptarget_TIME:
     number: 17 
+# Droptarget CENTER
+  c_reset_droptarget_center:
+    number: 18
 # Droptarget TRAVEL
   c_reset_droptarget_TRAVEL:
-    number: 18 
+    number: 19 
     
 autofire_coils:
   ac_sling_left:

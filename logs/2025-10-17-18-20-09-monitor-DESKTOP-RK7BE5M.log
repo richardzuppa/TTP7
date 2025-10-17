@@ -1,0 +1,11 @@
+2025-10-17 18:20:09,824 : INFO : root : Loading MPF Monitor Version 0.57.1
+2025-10-17 18:20:09,890 : INFO : Core : Looking for MPF at localhost:5051
+2025-10-17 18:20:10,882 : INFO : BCP Client : Connected to MPF
+2025-10-17 18:22:17,199 : INFO : Core : No device selected to delete
+2025-10-17 18:23:31,407 : INFO : Core : No device selected to delete
+2025-10-17 18:27:24,048 : INFO : Core : No device selected to delete
+2025-10-17 18:27:31,755 : INFO : Core : No device selected to resize
+2025-10-17 18:27:57,204 : INFO : Core : Quitting due to quit on close
+2025-10-17 18:27:57,213 : INFO : root : MPF Monitor run loop ended.
+2025-10-17 18:27:57,213 : INFO : root : Stopping child threads... (2 remaining)
+2025-10-17 18:27:58,221 : INFO : root : All child threads stopped.
