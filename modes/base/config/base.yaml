@@ -92,6 +92,10 @@ show_player:
       
 
 sound_player:
+  mode_base_started:
+    lets_go:
+      action: play
+      loops: 0
   rollover_lanes_complete:
     go:
       action: play

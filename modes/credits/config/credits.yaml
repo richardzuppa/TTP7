@@ -62,7 +62,7 @@ slides:
 # SOUNDS
 sound_player:
   credits_added:
-    go:
+    cash_in:
       action: play
       loops: 0
   not_enough_credits:

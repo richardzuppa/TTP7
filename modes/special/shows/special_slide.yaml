@@ -1,10 +1,21 @@
 #show_version=6
 
-  - duration: -1
+  - duration: 4
     slides:
       special_startup:
         widgets:
         - type: text
-          text: ESPECIAL ACESO!!!!
-          font_size: 20
-          y: 60%
+          text: ESPECIAL 
+          font_size: 16
+          anchor_y: top
+          anchor_x: center
+          y: 99%
+
+        - type: text
+          text: ACESO!!! 
+          font_size: 16
+          anchor_y: bottom
+          anchor_x: center
+          y: 1%
+        
+ 

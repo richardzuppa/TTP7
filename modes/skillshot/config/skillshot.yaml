@@ -34,7 +34,7 @@ slide_player:
         text: (SKILL SHOT!!!!!)
         number_grouping: true
         min_digits: 2
-        font_size: 50
+        font_size: 20
       
 
 shot_profiles:

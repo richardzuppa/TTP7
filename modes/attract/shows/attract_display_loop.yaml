@@ -8,8 +8,8 @@
     awesome_slide:
       widgets:
       - type: text
-        text: TIME TRAVEL 1985
-        font_size: 13
+        text: TIME TRAVEL  
+        font_size: 20
       transition:
         type: push
         duration: 1s
@@ -27,26 +27,33 @@
         text:  (machine|credits_string) 
         font_size: 10
         y: 30%
-        
       transition:
         type: move_in
         duration: 1s
         direction: right
 
-- duration: 3
+- duration: 3s
   slides:
     mission_pinball:
       widgets:
       - type: Text
-        text: A RICHARD ZUPPA GAME
-        font_size: 9
-       
+        text: ZUPPA PINBALL 
+        font_size: 12
+        y: 75%
+      - type: Text
+        text: 2025 ZUPPA ELTRONICS INC. 
+        font_size: 8
+        y: 45%  
       transition:
         type: move_in
         duration: 1s
         direction: top
+    
+     
+      
+      
 
-- duration: 3
+- duration: 3s
   slides:
     last_game_score_slide:
       widgets:
