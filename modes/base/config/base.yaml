@@ -31,7 +31,17 @@ mode:
 #       color: orange
 #       fade: 2000ms
        
+######################## ATIVADORES DE MODOS #################
 
+counters:
+  spinner_rotations:
+    count_events: left_corridor_spinner_shot_hit
+    count_complete_value: 10
+    events_when_complete: Ativa_Modo
+
+event_player:
+      Ativa_Modo:
+        start_mode_special
 
 ######################## SLIDES ##############################  
 slide_player:
@@ -115,6 +125,19 @@ sound_player:
 
 ######################## SHOTS ##############################
 shots:
+# Spinners
+  left_corridor_spinner_shot:
+    switch: s_left_corridor_spinner
+    show_tokens:
+      light: l_left_corridor
+  left_corridor_spinner2_shot:
+    switch: s_left_corridor_spinner2
+    show_tokens:
+      light: l_left_corridor_2
+  right_corridor_spinner_shot:
+    switch: s_right_corridor_spinner
+    show_tokens:
+      light: l_right_corridor
 
 # Top Left Standup 2
   top_left_standup2_shot:
@@ -275,7 +298,14 @@ shot_groups:
 ######################## SCORE ##############################
 
 variable_player:
-  
+
+  left_corridor_spinner_shot_hit:
+    score: 50
+  left_corridor_spinner2_shot_hit:
+    score: 50
+  right_corridor_spinner_shot_hit:
+    score: 50
+
   top_left_standup2_shot_hit:
     score: 100
   top_left_standup_shot_hit:

@@ -15,7 +15,7 @@ config:
  - config_lights.yaml
  - config_credits.yaml
  - config_droptargets.yaml
-
+ 
 modes:
  - base
  - skillshot
@@ -24,6 +24,7 @@ modes:
  - special_setup
  - special
  - credits
+  
 
 displays:
   window:

@@ -1,0 +1,31 @@
+2025-10-18 09:37:32,320 : INFO : root : Loading config.
+2025-10-18 09:37:32,324 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-18 09:37:32,325 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\config\config.yaml
+2025-10-18 09:37:32,325 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-18 09:37:32,340 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-18 09:37:32,341 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\config\config.yaml.
+2025-10-18 09:37:32,353 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config.yaml
+2025-10-18 09:37:32,355 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_sounds.yaml
+2025-10-18 09:37:32,357 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-18 09:37:32,360 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-18 09:37:32,362 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_flippers.yaml
+2025-10-18 09:37:32,367 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_switches.yaml
+2025-10-18 09:37:32,374 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_lights.yaml
+2025-10-18 09:37:32,378 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_credits.yaml
+2025-10-18 09:37:32,382 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_droptargets.yaml
+2025-10-18 09:37:32,387 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-18 09:37:32,479 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-18 09:37:32,479 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-18 09:37:32,480 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\base\config\base.yaml
+2025-10-18 09:37:32,480 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\base\config\base.yaml.
+2025-10-18 09:37:32,494 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\base\config\base.yaml
+2025-10-18 09:37:32,495 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-18 09:37:32,496 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-18 09:37:32,497 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-18 09:37:32,498 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-18 09:37:32,499 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-18 09:37:32,500 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\special\config\special.yaml
+2025-10-18 09:37:32,500 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\special\config\special.yaml.
+2025-10-18 09:37:32,501 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\special\config\special.yaml
+2025-10-18 09:37:32,502 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-18 09:37:32,502 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache

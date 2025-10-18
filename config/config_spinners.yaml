@@ -1,0 +1,15 @@
+#config_version=6
+
+spinners:
+  
+  left_corridor_spinner:
+    switch: s_left_corridor_spinner
+    active_ms: 500
+
+  left_corridor_spinner2:
+    switch: s_left_corridor_spinner2
+    active_ms: 500
+
+  right_corridor_spinner:
+    switch: s_right_corridor_spinner
+    active_ms: 500

@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: Special_Go
+  start_events: Special_Go, Ativa_Modo
   stop_events: right_standup_hit
   priority: 500
 
