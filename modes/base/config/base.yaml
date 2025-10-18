@@ -33,7 +33,7 @@ mode:
        
 
 
-  
+######################## SLIDES ##############################  
 slide_player:
   mode_base_started:
     widgets:
@@ -87,7 +87,7 @@ show_player:
       loops: 0
       priority: 1
       
-
+######################## SOUNDS ##############################
 sound_player:
   mode_base_started:
     lets_go:
@@ -113,8 +113,9 @@ sound_player:
       action: play
       loops: 0
 
-
+######################## SHOTS ##############################
 shots:
+
 # Top Left Standup 2
   top_left_standup2_shot:
     switch: s_top_left_standup2
@@ -137,9 +138,7 @@ shots:
       light: l_right_standup
 
 
-
 # Rollover
-
   left_rollover_shot:
     switch: s_left_rollover
     show_tokens:
@@ -158,6 +157,11 @@ shots:
     switch: s_right_scoop
     show_tokens:
      light: l_right_scoop
+# center scoop
+  center_scoop_shot:
+    switch: s_center_scoop
+    show_tokens:
+      light: l_left_center_target_avance1
 # left scoop
   left_scoop_shot:
     switch: s_left_scoop
@@ -268,7 +272,7 @@ shot_groups:
     reset_events: TRAVEL_droptargets_lit_complete
     
   
-
+######################## SCORE ##############################
 
 variable_player:
   
@@ -283,6 +287,8 @@ variable_player:
   
   right_scoop_shot_hit:
     score: 350
+  center_scoop_shot_hit:
+    score: 500
   left_scoop_shot_hit:
     score: 350
 

@@ -20,7 +20,13 @@ ball_devices:
     ball_switches: s_left_scoop
     eject_coil: c_left_scoop
     eject_targets: playfield
-    eject_timeouts: 2s
+    eject_timeouts: 1s
+  
+  bd_center_scoop:
+    ball_switches: s_center_scoop
+    eject_coil: c_center_scoop
+    eject_targets: playfield
+    eject_timeouts: 1s
 
   bd_right_scoop:
     ball_switches: s_right_scoop
