@@ -1,62 +1,64 @@
 events:
-  game_ended: 67
-  game_started: 344
+  game_ended: 69
+  game_started: 348
 missing_switches:
   s_A: 67
-  s_E: 14
+  s_E: 3
   s_Eb: 67
-  s_I: 14
+  s_I: 3
   s_L: 67
-  s_M: 14
+  s_M: 3
   s_R: 67
-  s_T: 14
+  s_T: 3
   s_Tb: 67
   s_V: 67
-  s_bumper1: 10
-  s_bumper2: 16
+  s_bumper1: 3
+  s_bumper2: 20
   s_bumper_1: 28
   s_bumper_2: 28
-  s_center_center_target: 10
-  s_center_rollover: 10
-  s_center_scoop: 10
-  s_coin_left: 25
-  s_launcher_lane_spinner: 10
-  s_left_center_target: 10
-  s_left_corridor_spinner2: 5
-  s_left_flipper: 17
-  s_left_inlane: 10
-  s_left_outlane: 10
-  s_left_rollover: 16
-  s_left_scoop: 10
-  s_left_standup: 10
-  s_right_center_target: 4
-  s_right_corridor_spinner: 5
-  s_right_flipper: 28
-  s_right_inlane: 10
-  s_right_outlane: 10
-  s_right_scoop: 10
-  s_service_coin: 25
-  s_sling_left: 297
-  s_sling_right: 193
-  s_standup_1: 14
-  s_standup_2: 14
-  s_standup_3: 14
-  s_standup_4: 14
-  s_standup_5: 14
-  s_standup_6: 14
-  s_start: 17
-  s_top_left_standup: 10
-  s_top_left_standup2: 10
-  s_trough1: 1
-  s_trough2: 29
-  s_trough3: 344
-  s_trough4: 344
-  s_trough5: 344
-  s_trough6: 344
-  s_trough_jam: 28
+  s_center_center_target: 3
+  s_center_rollover: 3
+  s_center_scoop: 14
+  s_coin_left: 29
+  s_launcher_lane_spinner: 14
+  s_left_center_target: 3
+  s_left_corridor_spinner: 3
+  s_left_corridor_spinner2: 9
+  s_left_flipper: 21
+  s_left_inlane: 14
+  s_left_outlane: 14
+  s_left_rollover: 3
+  s_left_scoop: 14
+  s_left_standup: 14
+  s_right_center_target: 3
+  s_right_corridor_spinner: 9
+  s_right_flipper: 32
+  s_right_inlane: 14
+  s_right_outlane: 14
+  s_right_rollover: 2
+  s_right_scoop: 3
+  s_right_standup: 3
+  s_service_coin: 29
+  s_sling_left: 301
+  s_sling_right: 197
+  s_standup_1: 18
+  s_standup_2: 18
+  s_standup_3: 18
+  s_standup_4: 18
+  s_standup_5: 18
+  s_standup_6: 18
+  s_start: 2
+  s_top_left_standup: 14
+  s_top_left_standup2: 14
+  s_trough2: 33
+  s_trough3: 348
+  s_trough4: 348
+  s_trough5: 348
+  s_trough6: 348
+  s_trough_jam: 32
 player:
   score:
-    average: 6866944
+    average: 6584764
     top:
     - 75043600
     - 70538842
@@ -68,48 +70,48 @@ player:
     - 31835000
     - 17715450
     - 13531600
-    total: 70
+    total: 73
 shots:
   A: 44
-  E: 202
+  E: 203
   Eb: 40
-  I: 195
+  I: 196
   L: 41
-  M: 197
+  M: 198
   R: 57
-  T: 197
+  T: 198
   Tb: 69
   V: 41
-  bumper1_shot: 291
+  bumper1_shot: 292
   bumper2_shot: 836
-  center_center_droptarget: 20
+  center_center_droptarget: 21
   center_rollover: 7
-  center_rollover_shot: 335
+  center_rollover_shot: 336
   center_scoop_shot: 7
-  jets: 1068
-  left_center_droptarget: 20
+  jets: 1069
+  left_center_droptarget: 21
   left_corridor_spinner: 9
   left_corridor_spinner2: 10
-  left_corridor_spinner_shot: 125
+  left_corridor_spinner_shot: 135
   left_inlane_shot: 7
   left_outlane_shot: 7
   left_rollover: 36
-  left_rollover_shot: 273
+  left_rollover_shot: 274
   left_scoop_shot: 39
   left_standup_shot: 15
   letf_inlane_shot: 6
   letf_outlane_shot: 5
   middle_inlane_shot: 20
   my_first_shot: 95
-  right_center_droptarget: 21
+  right_center_droptarget: 22
   right_corridor_spinner: 3
   right_inlane_shot: 106
   right_outlane_shot: 36
   right_rollover: 41
-  right_rollover_shot: 383
-  right_scoop_shot: 58
-  right_standup: 39
-  right_standup_shot: 16
+  right_rollover_shot: 390
+  right_scoop_shot: 60
+  right_standup: 40
+  right_standup_shot: 17
   standup_1_skill: 55
   standup_2_skill: 31
   standup_3_skill: 12
@@ -121,43 +123,43 @@ shots:
   top_middle_inlane_shot: 41
 switches:
   s_A: 0
-  s_E: 207
+  s_E: 208
   s_Eb: 0
-  s_I: 200
+  s_I: 201
   s_L: 0
-  s_M: 202
+  s_M: 203
   s_R: 0
-  s_T: 201
+  s_T: 202
   s_Tb: 0
   s_V: 0
-  s_bumper1: 291
+  s_bumper1: 292
   s_bumper2: 840
   s_bumper_1: 0
   s_bumper_2: 0
-  s_center_center_target: 26
-  s_center_rollover: 346
+  s_center_center_target: 27
+  s_center_rollover: 347
   s_center_scoop: 21
   s_coin_left: 16
   s_launcher_lane_spinner: 9
-  s_left_center_target: 27
-  s_left_corridor_spinner: 166
+  s_left_center_target: 28
+  s_left_corridor_spinner: 176
   s_left_corridor_spinner2: 14
   s_left_flipper: 342
   s_left_inlane: 23
   s_left_outlane: 15
-  s_left_rollover: 284
+  s_left_rollover: 285
   s_left_scoop: 256
   s_left_standup: 20
   s_middle_inlane: 20
-  s_plunger: 588
-  s_right_center_target: 30
+  s_plunger: 600
+  s_right_center_target: 31
   s_right_corridor_spinner: 24
   s_right_flipper: 155
   s_right_inlane: 233
   s_right_outlane: 42
-  s_right_rollover: 392
-  s_right_scoop: 75
-  s_right_standup: 165
+  s_right_rollover: 399
+  s_right_scoop: 77
+  s_right_standup: 166
   s_service_coin: 1
   s_sling_left: 3
   s_sling_right: 8
@@ -167,11 +169,11 @@ switches:
   s_standup_4: 66
   s_standup_5: 64
   s_standup_6: 55
-  s_start: 54
+  s_start: 58
   s_top_left_standup: 19
   s_top_left_standup2: 37
   s_top_middle_inlane: 41
-  s_trough1: 337
+  s_trough1: 347
   s_trough2: 1
   s_trough3: 0
   s_trough4: 0
