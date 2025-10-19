@@ -1,0 +1,21 @@
+#config_version=6
+
+mode:
+  start_events: s_service_enter_active
+  stop_events: s_service_esc_active
+  priority: 1600
+
+
+
+
+slide_player:
+  mode_service_started:
+    service_mode_slide:
+      expire: 0
+  
+
+slides:
+  service_mode_slide:
+    - type: text
+      text: SERVICE MODE
+      font_size: 12

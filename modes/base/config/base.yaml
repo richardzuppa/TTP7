@@ -37,7 +37,7 @@ counters:
   spinner_rotations:
     count_events: left_corridor_spinner_shot_hit
     count_complete_value: 10
-    events_when_complete: Ativa_Modo
+    events_when_complete: Ativa_Modo 
 
 event_player:
       Ativa_Modo:

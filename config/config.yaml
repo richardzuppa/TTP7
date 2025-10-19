@@ -24,7 +24,7 @@ modes:
  - special_setup
  - special
  - credits
-  
+ - service
 
 displays:
   window:
@@ -68,7 +68,16 @@ player_vars:
     initial_value: 0
 
 
-  
+settings:
+  replay_score:
+    label: replay
+    values:
+      5000000: "5000000 (default)"
+      25000000: "25000000"
+      3500000: "3500000"
+    default: 5000000
+    key_type: int
+    sort: 100  
 
 keyboard:
   z:
@@ -94,6 +103,16 @@ keyboard:
     switch: s_coin_left
   w:
     switch: s_service_coin
+  
+   
+  right:
+    switch: s_service_enter
+  left:
+    switch: s_service_esc
+  up:
+    switch: s_service_up
+  down:
+    switch: s_service_down
 
  
 

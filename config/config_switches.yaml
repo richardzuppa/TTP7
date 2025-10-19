@@ -164,6 +164,24 @@ switches:
     number: 250
   s_service_coin:
     number: 251
+
+# service
+  s_door_open:
+    number: 300
+    tags: service_door_open, power_off
+  s_service_enter:
+    number: 301
+    tags: service_enter
+  s_service_esc:
+    number: 302
+    tags: service_esc
+  s_service_up:
+    number: 303
+    tags: service_up
+  s_service_down:
+    number: 304
+    tags: service_down
+
     
  
        
