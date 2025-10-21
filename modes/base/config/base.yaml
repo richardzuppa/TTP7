@@ -49,11 +49,14 @@ counters:
   spinner_rotations:
     count_events: left_corridor_spinner_shot_hit
     count_complete_value: 10
-    events_when_complete: Ativa_Modo 
+    events_when_complete: Ativa_Modo_Special, Ativa_Modo_Multiball
+    reset_on_complete: true 
+    disable_on_complete: false
 
 event_player:
-      Ativa_Modo:
-        start_mode_special
+      # Ativa_Modo_Special: start_mode_special
+      Ativa_Modo_Multiball: start_mode_multiball  
+       
 
 ######################## SLIDES ##############################  
 slide_player:

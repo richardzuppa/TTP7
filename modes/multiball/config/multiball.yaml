@@ -1,0 +1,53 @@
+#config_version=6
+
+mode:
+  start_events: Ativa_Modo_Multiball
+
+  priority: 600
+
+
+##### virtual multiball #####
+
+multiball_locks:
+  my_lock:
+    balls_to_lock: 2
+    lock_devices: bd_lock
+    locked_ball_counting_strategy: virtual_only
+    enable_events: enable_lock
+    disable_events: disable_lock
+    reset_all_counts_events: multiball_lock_my_lock_full
+
+multiballs:
+  my_multiball:
+    ball_count: 3
+    ball_locks: bd_lock
+    start_events: start_multiball
+
+state_machines:
+  multiball:
+    states:
+      start:
+        label: Lock not enable
+      lock_enabled:
+        label: Lock enabled
+        events_when_started: enable_lock
+        events_when_stopped: disable_lock
+      multiball_avaible:
+        label: Multiball can be started
+      multiball_running:
+        events_when_started: start_multiball
+        label: Multiball running
+    transitions:
+      - source: start
+        target: lock_enabled
+        events: test_event1
+      - source: lock_enabled
+        target: multiball_avaible
+        events: multiball_lock_my_lock_full
+      - source: multiball_avaible
+        target: multiball_running
+        events: test_event2
+      - source: multiball_running
+        target: start
+        events: multiball_my_multiball_ended
+      

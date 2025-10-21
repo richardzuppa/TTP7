@@ -2,7 +2,7 @@
 
 ball_devices:
   bd_trough:
-    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6
+    ball_switches: s_trough1, s_trough2, s_trough3 
     jam_switch: s_trough_jam
     eject_coil: c_trough_eject
     tags: drain, home, trough
@@ -33,5 +33,13 @@ ball_devices:
     eject_coil: c_right_scoop
     eject_targets: playfield
     eject_timeouts: 1s
+
+###### VIRTUAL BALL LOCK ########
+  bd_lock:
+    ball_switches: s_lock1, s_lock2
+    eject_coil: c_lock
+    eject_timeouts: 1s
+  
+ 
  
     

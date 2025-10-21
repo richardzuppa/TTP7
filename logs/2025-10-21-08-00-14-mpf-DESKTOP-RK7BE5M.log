@@ -1,0 +1,35 @@
+2025-10-21 08:00:14,838 : INFO : root : Loading config.
+2025-10-21 08:00:14,842 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-21 08:00:14,843 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-21 08:00:14,925 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-21 08:00:14,925 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-21 08:00:14,926 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\base\config\base.yaml
+2025-10-21 08:00:14,926 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\base\config\base.yaml.
+2025-10-21 08:00:14,945 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\base\config\base.yaml
+2025-10-21 08:00:14,946 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-21 08:00:14,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-21 08:00:14,948 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-21 08:00:14,949 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-21 08:00:14,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-21 08:00:14,950 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-21 08:00:14,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache
+2025-10-21 08:00:14,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77e0376825dda61b91775259cce643ad.mpf_cache
+2025-10-21 08:00:14,953 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e68c20669f80ec7d0801afbfa80f9eff.mpf_cache
+2025-10-21 08:00:14,954 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml
+2025-10-21 08:00:14,954 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml.
+2025-10-21 08:00:14,962 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml
+2025-10-21 08:00:56,157 : ERROR : root : Shutdown because of SIGINT or keyboard interrupt.
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\commands\game.py", line 227, in __init__
+    config = config_loader.load_mpf_config()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_loader.py", line 166, in load_mpf_config
+    mode_config = self._load_modes(config_spec, machine_config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_loader.py", line 225, in _load_modes
+    config = self.config_processor.load_config_files_with_cache(mode_config_files, "mode",
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_processor.py", line 118, in load_config_files_with_cache
+    file_config, file_subfiles = self._load_config_file_and_return_loaded_files(configfile, config_type,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_processor.py", line 186, in _load_config_file_and_return_loaded_files
+    self._check_sections(config_spec, config, config_type, filename, ignore_unknown_sections)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_processor.py", line 163, in _check_sections
+    raise ConfigFileError('Found a "{}:" section in config file {}, '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigProcessor: Found a "bd_middle_ramp_ball_lock:" section in config file C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml, but that section name is unknown. Did you mean "multiball_locks:" instead?. Context: C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml Error Code: CFE-ConfigProcessor-3 (https://missionpinball.org/logs)

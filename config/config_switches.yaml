@@ -19,15 +19,6 @@ switches:
   s_trough3:
     number: 4 
     type: NC
-  s_trough4:
-    number: 5 
-    type: NC
-  s_trough5:
-    number: 6 
-    type: NC
-  s_trough6:
-    number: 7 
-    type: NC
   s_trough_jam:
     number: 8 
     type: NC
@@ -145,12 +136,18 @@ switches:
     number: 173
     tags: right_scoop
 
+# locks virtual ball
+  s_lock1:
+    number: 174
+  s_lock2:
+    number: 175
+
 # Bumpers
   s_bumper1:
-    number: 174
+    number: 176
     tags: bumper1, jets
   s_bumper2:
-    number: 175
+    number: 177
     tags: bumper2, jets
 
   

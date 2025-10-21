@@ -1,0 +1,134 @@
+2025-10-21 14:47:23,910 : INFO : root : Loading config.
+2025-10-21 14:47:23,914 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-21 14:47:23,915 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-21 14:47:24,003 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-21 14:47:24,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-21 14:47:24,005 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-21 14:47:24,006 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-21 14:47:24,007 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-21 14:47:24,008 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-21 14:47:24,009 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-21 14:47:24,009 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-21 14:47:24,010 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache
+2025-10-21 14:47:24,011 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77e0376825dda61b91775259cce643ad.mpf_cache
+2025-10-21 14:47:24,012 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e68c20669f80ec7d0801afbfa80f9eff.mpf_cache
+2025-10-21 14:47:24,012 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml
+2025-10-21 14:47:24,013 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml.
+2025-10-21 14:47:24,023 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\modes\multiball\config\multiball.yaml
+2025-10-21 14:47:24,024 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\28e9108f411f2b73ba76f82bf4f68e34.mpf_cache
+2025-10-21 14:47:24,025 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b710dc01437f1dfd05f3b5275f67493b.mpf_cache
+2025-10-21 14:47:24,026 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\0a23590f4081187a3ecee75c7657616e.mpf_cache
+2025-10-21 14:47:24,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\374a5edaf0766cb9005f368df852c09d.mpf_cache
+2025-10-21 14:47:24,027 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b50d1c72289d6f8f00cba34766fbb2e5.mpf_cache
+2025-10-21 14:47:24,028 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\bfc680b70531e398658191c2a179bce0.mpf_cache
+2025-10-21 14:47:24,029 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\069a726c379c7a3dc006889318eb30f2.mpf_cache
+2025-10-21 14:47:24,030 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\6159dd3e8b071f5aa615e717784124e9.mpf_cache
+2025-10-21 14:47:24,031 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e382c4765158d2be92c1673fc03a4ad6.mpf_cache
+2025-10-21 14:47:24,032 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\868b3b6361e3aaa0a56bd50d9388247e.mpf_cache
+2025-10-21 14:47:24,033 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-21 14:47:24,033 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-21-14-47-23-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-21 14:47:24,033 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-21 14:47:24,033 : INFO : Machine : Machine path: C:\Users\richa\ttp7
+2025-10-21 14:47:24,033 : INFO : Machine : Platform: win32
+2025-10-21 14:47:24,033 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-21 14:47:24,033 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-21 14:47:24,035 : INFO : Machine : Initializing MPF...
+2025-10-21 14:47:24,432 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_credit_units'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_free_play'====== Args={'value': False, 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.7, 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 300, 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,490 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-21 14:47:24,500 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-21 14:47:24,550 : ERROR : ConfigValidator : Your config contains a value for the setting "mode:multiball:multiball_locks:my_lock:ball_to_lock", but this is not a valid setting name.
+2025-10-21 14:47:24,551 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tting name.')>) at C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 336, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:multiball:multiball_locks:my_lock:ball_to_lock", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-21 14:47:24,554 : INFO : Machine : Starting the main run loop.
+2025-10-21 14:47:24,560 : INFO : Machine : Shutting down...
+2025-10-21 14:47:24,560 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-21 14:47:25,554 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 336, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:multiball:multiball_locks:my_lock:ball_to_lock", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+2025-10-21 14:47:27,727 : ERROR : root : 
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 788, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    await self.machine.mode_controller.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode_controller.py", line 86, in load_mode_devices
+    await mode.load_mode_devices()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\mode.py", line 438, in load_mode_devices
+    settings = device.validate_and_parse_config(settings, True, "mode:" + self.name)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 336, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "mode:multiball:multiball_locks:my_lock:ball_to_lock", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\commands\game.py", line 236, in __init__
+    self.machine.run()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 684, in run
+    self._run_loop()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 791, in _run_loop
+    report_crash(self._exception['exception'], "exception_during_run", self.config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

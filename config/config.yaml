@@ -28,6 +28,7 @@ modes:
  - credits
  - service
  - tilt
+ - multiball
 
 displays:
   window:
@@ -71,16 +72,7 @@ player_vars:
     initial_value: 0
 
  
-settings:
-  replay_score:
-    label: replay
-    values:
-      5000000: "5000000 (default)"
-      25000000: "25000000"
-      3500000: "3500000"
-    default: 5000000
-    key_type: int
-    sort: 100  
+ 
 
 keyboard:
   z:
@@ -106,6 +98,10 @@ keyboard:
     switch: s_coin_left
   w:
     switch: s_service_coin
+  4:
+    event: test_event1
+  5: 
+    event: test_event2
   
    
   right:
@@ -123,9 +119,7 @@ virtual_platform_start_active_switches:
   - s_trough1
   - s_trough2
   - s_trough3
-  - s_trough4
-  - s_trough5
-  - s_trough6
+  
 
 
 

@@ -51,7 +51,15 @@ coils:
     number: 18
 # Droptarget TRAVEL
   c_reset_droptarget_TRAVEL:
-    number: 19 
+    number: 19
+
+
+  c_plunger:
+    number: 20
+  
+  c_lock:
+    number: 21
+   
     
 autofire_coils:
   ac_sling_left:
