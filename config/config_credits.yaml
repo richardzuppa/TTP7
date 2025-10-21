@@ -26,7 +26,7 @@ credits:
       type: match
       credits: 1
 
-  # fractional_credit_expiration_time: 15m
+  
   credit_expiration_time: 2h
   persist_credits_while_off_time: 1h
   free_play_string: FREE PLAY

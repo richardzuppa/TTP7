@@ -1,0 +1,38 @@
+#config_version=6
+
+tilt:    # the following are the defaults only copy those if you want to change them
+  multiple_hit_window: 300ms
+  settle_time: 5s
+  warnings_to_tilt: 3
+
+slides:
+  _overwrite: true   # this is important to overwrite the existing slides
+  tilt_warning_1:
+    widgets:
+      - type: text
+        text: "CALMA AÍ MACHO!"
+    expire: 1s
+  tilt_warning_2:
+    widgets:
+      - type: text
+        text: TA NERVOSO???
+        y: top-2
+        anchor_y: top
+      - type: text
+        text: "VAI DAR TILT!!!"
+        font_size: 15
+        y: top-18
+        anchor_y: top
+        expire: 1s
+    expire: 2s
+  tilt:
+    - type: text
+      text: TILT
+ 
+
+
+# # atua quando mode servico eh atuante
+# tilt:
+#   multiple_hit_window: settings.multiple_hit_window
+#   settle_time: settings.settle_time
+#   warnings_to_tilt: settings.warnings_to_tilt

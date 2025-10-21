@@ -30,7 +30,19 @@ mode:
 #     l_extraball: 
 #       color: orange
 #       fade: 2000ms
-       
+
+######################## EXTRA BALL SCORE #################
+extra_balls:
+  score_one:
+    enabled: true
+    award_events: player_score{value>=1500000}
+  score_two:
+    enabled: false
+    award_events: player_score{value>=210000}
+  score_three:
+    enabled: false
+    award_events: player_score{value>=300000}   
+
 ######################## ATIVADORES DE MODOS #################
 
 counters:

@@ -182,6 +182,11 @@ switches:
     number: 304
     tags: service_down
 
+# tilt
+  s_tilt:
+    number: 400
+    tags: tilt_warning
+
     
  
        

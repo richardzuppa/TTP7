@@ -15,7 +15,9 @@ config:
  - config_lights.yaml
  - config_credits.yaml
  - config_droptargets.yaml
- 
+
+
+
 modes:
  - base
  - skillshot
@@ -25,6 +27,7 @@ modes:
  - special
  - credits
  - service
+ - tilt
 
 displays:
   window:
@@ -64,10 +67,10 @@ slide_player:
 
 player_vars:
   sj_active:
-    value_type: int
+    value_type: int 
     initial_value: 0
 
-
+ 
 settings:
   replay_score:
     label: replay
@@ -123,4 +126,6 @@ virtual_platform_start_active_switches:
   - s_trough4
   - s_trough5
   - s_trough6
+
+
 
