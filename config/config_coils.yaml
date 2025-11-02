@@ -59,7 +59,9 @@ coils:
   
   c_lock:
     number: 21
-   
+
+  c_lock_2:
+    number: 22  
     
 autofire_coils:
   ac_sling_left:

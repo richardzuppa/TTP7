@@ -1,5 +1,5 @@
 credit_units:
-  expire: 1762089363.483673
+  expire: 1762093612.781059
   expire_secs: 3600.0
   value: 1
 free_play:
@@ -13,4 +13,4 @@ master_volume:
 player1_score:
   expire: null
   expire_secs: null
-  value: 300
+  value: 2216200

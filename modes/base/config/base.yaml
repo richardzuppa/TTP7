@@ -111,6 +111,12 @@ show_player:
       speed: 20
       loops: 0
       priority: 1
+  
+  mode_base_started:
+    start_base_showlight:
+      speed: 10
+      loops: -1
+      priority: 2
       
 ######################## SOUNDS ##############################
 sound_player:

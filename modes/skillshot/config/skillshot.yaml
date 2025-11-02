@@ -7,7 +7,7 @@
 
 
 mode:
-  start_events: rollover_lanes_lit_complete, right_scoop_shot_hit
+  start_events: rollover_lanes_lit_complete 
   stop_events: timer_skillshot_timer_complete, standups_skill_hit
   priority: 150
 

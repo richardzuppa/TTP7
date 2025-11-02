@@ -16,11 +16,11 @@ ball_devices:
     eject_timeouts: 5s
      
     
-  bd_left_scoop:
-    ball_switches: s_left_scoop
-    eject_coil: c_left_scoop
-    eject_targets: playfield
-    eject_timeouts: 1s
+  # bd_left_scoop:
+  #   ball_switches: s_left_scoop
+  #   eject_coil: c_left_scoop
+  #   eject_targets: playfield
+  #   eject_timeouts: 1s
   
   bd_center_scoop:
     ball_switches: s_center_scoop
@@ -28,16 +28,21 @@ ball_devices:
     eject_targets: playfield
     eject_timeouts: 1s
 
-  bd_right_scoop:
-    ball_switches: s_right_scoop
-    eject_coil: c_right_scoop
-    eject_targets: playfield
-    eject_timeouts: 1s
+  # bd_right_scoop:
+  #   ball_switches: s_right_scoop
+  #   eject_coil: c_right_scoop
+  #   eject_targets: playfield
+  #   eject_timeouts: 1s
 
 ###### VIRTUAL BALL LOCK ########
   bd_lock:
-    ball_switches: s_lock1, s_lock2 
-    eject_coil: c_lock
+    ball_switches: s_left_scoop
+    eject_coil: c_left_scoop
+    eject_timeouts: 1s
+  
+  bd_lock_2:
+    ball_switches:  s_right_scoop 
+    eject_coil: c_right_scoop
     eject_timeouts: 1s
   
  
