@@ -3,8 +3,16 @@
  - duration: 1
    lights:
     l_T: 00
+    l_standup_1: 00
+    l_left_corridor_avance3: 00
+    l_right_scoop_avance1: 00
+    l_top_left_standup_2: 00
     
  - duration: 1
    lights:
     l_T: FF
+    l_standup_1: FF
+    l_left_corridor_avance3: FF
+    l_right_scoop_avance1: FF
+    l_top_left_standup_2: FF
     

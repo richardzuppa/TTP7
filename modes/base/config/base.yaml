@@ -6,31 +6,6 @@ mode:
   priority: 100
 
 
-# Extraball
-# counters:
-#   my_counter:
-#     starting_count: 0
-#     count_complete_value: 5
-#     count_events: s_left_scoop_active
-#     reset_on_complete: true
-#     disable_on_complete: false
-
-# light_player:
-#   "{device.counters.my_counter.value > 0}":
-#     l_left_scoop_avance2: 
-#       color: red
-#       fade: 200ms
-#   "{device.counters.my_counter.value > 1}":
-#     l_left_scoop_avance1: green
-#   "{device.counters.my_counter.value > 2}":
-#     l_left_scoop:
-#        color: ff0000
-#        fade: 2000ms
-#   "{device.counters.my_counter.value > 3}":
-#     l_extraball: 
-#       color: orange
-#       fade: 2000ms
-
 ######################## EXTRA BALL SCORE #################
 extra_balls:
   score_one:
@@ -46,16 +21,47 @@ extra_balls:
 ######################## ATIVADORES DE MODOS #################
 
 counters:
+  ### ATIVA MULTIBALL
   spinner_rotations:
     count_events: left_corridor_spinner_shot_hit
     count_complete_value: 10
-    events_when_complete: Ativa_Modo_Special, Ativa_Modo_Multiball
+    events_when_complete: Ativa_Modo_Multiball
     reset_on_complete: true 
     disable_on_complete: false
 
+ ### AVANCA BONUS 
+  my_counter:
+    starting_count: 0
+    count_complete_value: 6
+    count_events: rollover_lanes_lit_complete
+    reset_on_complete: true
+    disable_on_complete: false
+
+light_player:
+  "{device.counters.my_counter.value > 0}":
+    l_bonusx100: 
+      color: blue
+      fade: 100ms
+  "{device.counters.my_counter.value > 1}":
+    l_bonusx1000: 
+      color: blue
+      fade: 100ms
+      
+  "{device.counters.my_counter.value > 2}":
+    1_bonusx2000:
+       color: blue
+       fade: 100ms
+  "{device.counters.my_counter.value > 3}":
+    l_bonusx5000: 
+      color: orange
+      fade: 200ms
+  "{device.counters.my_counter.value > 4}":
+    l_bonusx7000: 
+      color: red
+      fade: 200ms
+
 event_player:
-      # Ativa_Modo_Special: start_mode_special
-      Ativa_Modo_Multiball: start_mode_multiball  
+    Ativa_Modo_Multiball: start_mode_multiball  
        
 
 ######################## SLIDES ##############################  
@@ -114,9 +120,12 @@ show_player:
   
   mode_base_started:
     start_base_showlight:
-      speed: 10
+      speed: 5
       loops: -1
       priority: 2
+  TIME_droptargets_complete:     # assim se para um showplayer
+   start_base_showlight:
+    action: stop
       
 ######################## SOUNDS ##############################
 sound_player:
