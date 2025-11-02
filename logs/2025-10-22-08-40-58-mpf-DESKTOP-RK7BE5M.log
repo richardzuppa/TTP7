@@ -1,0 +1,129 @@
+2025-10-22 08:40:58,518 : INFO : root : Loading config.
+2025-10-22 08:40:58,518 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-10-22 08:40:58,518 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-22 08:40:58,533 : WARNING : ConfigProcessor : Config file in cache changed: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-22 08:40:58,533 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml.
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\mpfconfig.yaml
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config from file C:\Users\richa\ttp7\config\config.yaml.
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config.yaml
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_sounds.yaml
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_ball_devices.yaml
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_coils.yaml
+2025-10-22 08:40:58,549 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_flippers.yaml
+2025-10-22 08:40:58,564 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_switches.yaml
+2025-10-22 08:40:58,564 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_lights.yaml
+2025-10-22 08:40:58,564 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_credits.yaml
+2025-10-22 08:40:58,564 : INFO : ConfigProcessor : Loading config: C:\Users\richa\ttp7\config\config_droptargets.yaml
+2025-10-22 08:40:58,580 : INFO : ConfigProcessor : Config file cache created: C:\Users\richa\AppData\Local\Temp\f7776651e259183bd84a8c8d686bf868.mpf_cache
+2025-10-22 08:40:58,643 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\70233839fc0b792ce11a62f3c18c1950.mpf_cache
+2025-10-22 08:40:58,643 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9c8dea79ca4d15ee886340e992e8cb9d.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\67a19b095f918111543419ac0271bfb1.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\be387b0e8ed00556ec738d83cd6947d1.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\5a8efabd9666d8c71fa755fc28a9bf1e.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\fb58745e58584e219ff53db445e8e9f2.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\3a5badf48d988f9fc0f9b093a934917d.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\9e788d9ac28f3464b985b20edf80a10e.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\7e426d8ffa907371bf962f3181d8bdf2.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\77e0376825dda61b91775259cce643ad.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e68c20669f80ec7d0801afbfa80f9eff.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\28e9108f411f2b73ba76f82bf4f68e34.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b710dc01437f1dfd05f3b5275f67493b.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\0a23590f4081187a3ecee75c7657616e.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\374a5edaf0766cb9005f368df852c09d.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\b50d1c72289d6f8f00cba34766fbb2e5.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\bfc680b70531e398658191c2a179bce0.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\069a726c379c7a3dc006889318eb30f2.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\6159dd3e8b071f5aa615e717784124e9.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\e382c4765158d2be92c1673fc03a4ad6.mpf_cache
+2025-10-22 08:40:58,658 : INFO : ConfigProcessor : Loading config from cache: C:\Users\richa\AppData\Local\Temp\868b3b6361e3aaa0a56bd50d9388247e.mpf_cache
+2025-10-22 08:40:58,658 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.0.dev39
+2025-10-22 08:40:58,658 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2025-10-22-08-40-58-mpf-DESKTOP-RK7BE5M.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2025-10-22 08:40:58,658 : INFO : Machine : MPF path: C:\Users\richa\mpfvirtual4\lib\site-packages\mpf
+2025-10-22 08:40:58,674 : INFO : Machine : Machine path: C:\Users\richa\ttp7
+2025-10-22 08:40:58,674 : INFO : Machine : Platform: win32
+2025-10-22 08:40:58,674 : INFO : Machine : Python executable location: C:\Users\richa\mpfvirtual4\Scripts\python.exe
+2025-10-22 08:40:58,674 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2025-10-22 08:40:58,674 : INFO : Machine : Initializing MPF...
+2025-10-22 08:40:59,168 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,225 : INFO : EventManager : Event: ======'machine_var_credit_units'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_free_play'====== Args={'value': False, 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.7, 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 300, 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.0.dev39, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,226 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,236 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19045-SP0', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,237 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,237 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,237 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19045', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,237 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2025-10-22 08:40:59,237 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-10-22 08:40:59,292 : INFO : EventManager : Event: ======'drop_target_bank_TIME_up'====== Args={}
+2025-10-22 08:40:59,293 : INFO : EventManager : Event: ======'drop_target_bank_CENTER_up'====== Args={}
+2025-10-22 08:40:59,293 : INFO : EventManager : Event: ======'drop_target_bank_TRAVEL_up'====== Args={}
+2025-10-22 08:40:59,293 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-10-22 08:40:59,294 : INFO : SwitchController : Found active switch: ('2', <Platform.SmartVirtual>) <switch.s_trough1>
+2025-10-22 08:40:59,294 : INFO : SwitchController : Found active switch: ('3', <Platform.SmartVirtual>) <switch.s_trough2>
+2025-10-22 08:40:59,294 : INFO : SwitchController : Found active switch: ('4', <Platform.SmartVirtual>) <switch.s_trough3>
+2025-10-22 08:40:59,305 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-10-22 08:40:59,307 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-10-22 08:41:01,321 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2025-10-22 08:41:01,322 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2025-10-22 08:41:01,752 : INFO : ball_device.bd_trough : BCH: Initial count: 3
+2025-10-22 08:41:01,752 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.0.dev10', 'prev_value': None, 'change': True}
+2025-10-22 08:41:01,752 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.0.dev10 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0.dev19 or newer)', 'prev_value': None, 'change': True}
+2025-10-22 08:41:01,859 : INFO : ball_device.bd_trough : State: idle
+2025-10-22 08:41:01,859 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2025-10-22 08:41:01,859 : INFO : ball_device.bd_plunger : State: idle
+2025-10-22 08:41:01,860 : INFO : ball_device.bd_left_scoop : BCH: Initial count: 0
+2025-10-22 08:41:01,860 : INFO : ball_device.bd_left_scoop : State: idle
+2025-10-22 08:41:01,861 : INFO : ball_device.bd_center_scoop : BCH: Initial count: 0
+2025-10-22 08:41:01,861 : INFO : ball_device.bd_center_scoop : State: idle
+2025-10-22 08:41:01,862 : INFO : ball_device.bd_right_scoop : BCH: Initial count: 0
+2025-10-22 08:41:01,862 : INFO : ball_device.bd_right_scoop : State: idle
+2025-10-22 08:41:01,862 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-238' coro=<BallDevice._initialize_async() done, defined at C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\devices\ball_device\ball_device.py:196> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_lock1" is not valid. Device "s_lock1" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\devices\ball_device\ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 205, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 257, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 683, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 401, in _validate_type_machine
+    return self.validation_error(item, validation_failure_info,
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\config_validator.py", line 700, in validation_error
+    raise ConfigFileError("Config validation error: Entry {} = \"{}\" is not valid. {}".format(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_lock1" is not valid. Device "s_lock1" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2025-10-22 08:41:01,880 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-10-22 08:41:01,950 : INFO : Machine : Starting the main run loop.
+2025-10-22 08:41:01,950 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-10-22 08:41:01,951 : INFO : Machine : Shutting down...
+2025-10-22 08:41:01,957 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-10-22 08:41:01,957 : ERROR : root : no running event loop
+Traceback (most recent call last):
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\commands\game.py", line 236, in __init__
+    self.machine.run()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 684, in run
+    self._run_loop()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 784, in _run_loop
+    self._crash_shutdown()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 729, in _crash_shutdown
+    self._do_stop()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\machine.py", line 719, in _do_stop
+    self.events.process_event_queue()
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 838, in process_event_queue
+    self._process_queue_event(event=event[0],
+  File "C:\Users\richa\mpfvirtual4\lib\site-packages\mpf\core\events.py", line 779, in _process_queue_event
+    task = asyncio.create_task(self._run_handlers_sequential(event, callback, kwargs))
+  File "C:\Users\richa\AppData\Local\Programs\Python\Python39\lib\asyncio\tasks.py", line 360, in create_task
+    loop = events.get_running_loop()
+RuntimeError: no running event loop

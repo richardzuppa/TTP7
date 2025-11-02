@@ -136,7 +136,7 @@ switches:
     number: 173
     tags: right_scoop
 
-# locks virtual ball
+ # locks virtual ball
   s_lock1:
     number: 174
   s_lock2:

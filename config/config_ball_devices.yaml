@@ -36,10 +36,8 @@ ball_devices:
 
 ###### VIRTUAL BALL LOCK ########
   bd_lock:
-    ball_switches: s_lock1, s_lock2
+    ball_switches: s_lock1, s_lock2 
     eject_coil: c_lock
     eject_timeouts: 1s
   
  
- 
-    
