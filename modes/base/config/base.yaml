@@ -96,7 +96,12 @@ slide_player:
         anchor_x: right
         anchor_y: bottom
         font_size: 8
-        
+  player_score{value>=1500000}:
+    widgets: 
+      - type: text
+        text:  EXTRABALL!! 
+        font_size: 19
+        y: 40%     
 
 show_player:
   rollover_lanes_lit_complete: 
